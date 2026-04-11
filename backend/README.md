@@ -1,4 +1,4 @@
-# Backend — Contract Review RAG
+# Backend — Long Contract Review RAG + Agent
 
 总后端，包含完整的检索、重排、Agent 推理和离线评测管线。
 
