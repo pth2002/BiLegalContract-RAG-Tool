@@ -1,5 +1,3 @@
-"""Contract Review Tool - FastAPI backend entrypoint."""
-
 from __future__ import annotations
 
 import logging
