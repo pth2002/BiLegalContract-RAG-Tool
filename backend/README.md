@@ -1,4 +1,4 @@
-# Contract Review Tool - AI 合同智能审查工具
+# 基于RAG+Agent的双语超长合同分析工具
 
 本地 AI 驱动的合同审查工具，使用 Ollama (Qwen3:8b) 进行智能风险分析。
 
