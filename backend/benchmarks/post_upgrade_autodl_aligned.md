@@ -1,6 +1,5 @@
-# Post-Upgrade Benchmark — AutoDL Aligned
+# Post-Upgrade Benchmark
 
-**Timestamp**: 2026-04-11
 **Config**: bge-reranker-large + PGVECTOR_PROBES=100 + chunk=900:150
 
 ## Configuration
@@ -41,6 +40,6 @@
 
 ## Notes
 
-- Macro 0.4534 vs AutoDL target 0.4636 — Δ=+0.010, within ±0.01 tolerance ✅
-- P50 691ms vs AutoDL ~134ms — local significantly slower (expected: no GPU-optimized VRAM config, reranker cold-load each benchmark pass)
-- Relative group order: en > bilingual > zh ✅ matches AutoDL
+- Macro 0.4534 vs AutoDL target 0.4636 — Δ=+0.010, within ±0.01 tolerance 
+- P50 691ms vs AutoDL ~134ms — local significantly slower 
+- Relative group order: en > bilingual > zh 
