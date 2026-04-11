@@ -1,6 +1,6 @@
 # Backend — Contract Review RAG
 
-FastAPI 后端，包含完整的检索、重排、Agent 推理和离线评测管线。
+总后端，包含完整的检索、重排、Agent 推理和离线评测管线。
 
 ## 目录结构
 
@@ -106,7 +106,7 @@ python -m src.tooling.run_retrieval_benchmark
 --rerank-pool-mults 1,2,4
 ```
 
-### 端到端 benchmark（需要 OpenAI API Key）
+### 端到端 benchmark
 
 ```bash
 python src/tooling/run_e2e_benchmark.py \
