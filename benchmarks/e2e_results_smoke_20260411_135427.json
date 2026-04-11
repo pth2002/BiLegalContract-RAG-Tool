@@ -1,0 +1,132 @@
+{
+  "run_ts": "20260411_135427",
+  "aggregate": {
+    "total_cases": 3,
+    "scored_cases": 3,
+    "parse_errors": 0,
+    "other_errors": 0,
+    "macro_faithfulness": 3.667,
+    "macro_completeness": 3.667,
+    "by_group": {
+      "zh": {
+        "count": 1,
+        "faithfulness_avg": 1.0,
+        "completeness_avg": 1.0
+      },
+      "bilingual": {
+        "count": 1,
+        "faithfulness_avg": 5.0,
+        "completeness_avg": 5.0
+      },
+      "en": {
+        "count": 1,
+        "faithfulness_avg": 5.0,
+        "completeness_avg": 5.0
+      }
+    },
+    "retrieval_hit_cases": 2,
+    "retrieval_miss_cases": 1,
+    "hit_faithfulness_avg": 5.0,
+    "hit_completeness_avg": 5.0,
+    "miss_faithfulness_avg": 1.0,
+    "miss_completeness_avg": 1.0
+  },
+  "results": [
+    {
+      "case_id": "td_custody_fee_mgmt",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于基金费用和管理费的具体条款内容。",
+      "evidence_snippets": [
+        "基金管理人的基金管理费按基金资产净值的1.50%年费率计提",
+        "由基金托管人于次月前5个工作日内从基金财产中一次性支付给基金管理人"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0065",
+        "chunk_0025",
+        "chunk_0035"
+      ],
+      "retrieval_ms": 6329.7,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 1,
+      "faithfulness_reason": "AI 生成的回答声称未找到相关条款，但参考证据中明确提供了关于基金管理费的具体条款信息，因此回答不忠实于合同条款。",
+      "completeness": 1,
+      "completeness_reason": "回答完全没有覆盖参考证据中关于基金管理费的关键信息，遗漏了所有关键点。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_payment_terms",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于付款条件和GSK付账日的具体条款内容。",
+      "evidence_snippets": [
+        "Payment will be arranged on the first GSK Payment Day after 60 days",
+        "所有发票上必须列明正确的采购订单号"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0016",
+        "chunk_0017",
+        "chunk_0035",
+        "chunk_0053",
+        "chunk_0023",
+        "chunk_0008",
+        "chunk_0010",
+        "chunk_0026"
+      ],
+      "retrieval_ms": 1239.9,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于付款条件和GSK付账日的具体条款内容如下：\n\n- **价格和付款条款**：价格在合同期内固定不变，已包括包装、运输、保险等所有相关费用，除非双方另有书面约定。任何价格上涨必须经葛兰素史克事先书面同意。（条款5.2）\n\n- **GSK付账日**：除非合同中另有约定，GSK付账日为根据葛兰素史克财务制度确定的每月可以向供应商进行支付的日期。付款将在葛兰素史克财务部门收到正确发票（如合同无特别约定，该等发票应当为增值税专用发票，发票金额必须准确并且标注订单号码以及葛兰素史克联系人）满60日后的第一个GSK付账日安排。（条款5.2）\n\n- **发票要求**：所有发票上必须列明正确的采购订单号。对于无订单号的发票，葛兰素史克有权拒绝且不承担任何责任。（条款5.3）\n\n- **发票寄送地址**：为确保正常付款，所有的发票应寄往采购订单上注明的地址。（条款5.4）\n\n- **发票争议**：如果葛兰素史克认为供应商提交的发票有缺陷或相关货物或服务未履行合同义务，葛兰素史克有权暂时终止就该争议金额部分的付款，并在收到发票后的14日内通知供应商。（条款5.5）",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容均能在检索到的合同条款片段中找到出处，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括价格和付款条款、GSK付账日、发票要求、发票寄送地址和发票争议等内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_purchase_price",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "What are the specific contractual provisions regarding Purchase Price and Final Purchase Price?",
+      "evidence_snippets": [
+        "hereunder shall be (i) an amount in cash equal to the Final Purchase Price",
+        "the assumption of the Transferred Liabilities"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0046",
+        "chunk_0103",
+        "chunk_0100",
+        "chunk_0105",
+        "chunk_0401",
+        "chunk_0106",
+        "chunk_0117",
+        "chunk_0102"
+      ],
+      "retrieval_ms": 2619.9,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Purchase Price and Final Purchase Price are as follows:\n\n1. **Purchase Price**: The purchase price for the transactions is composed of two elements: (i) an amount in cash equal to the Final Purchase Price and (ii) the assumption of the Transferred Liabilities (Clause 3.1).\n\n2. **Final Purchase Price**: The Final Purchase Price is defined as $50,000,000 plus the (positive or negative) Inventory Cost and the (positive or negative) Net Working Capital, as set forth in the Final Closing Statement (chunk_0046).\n\n3. **Post-Closing Adjustment**: \n   - If the Final Purchase Price exceeds the Estimated Purchase Price, the Purchaser must pay the Seller the excess amount (Excess Amount).\n   - If the Final Purchase Price is less than the Estimated Purchase Price, the Seller must pay the Purchaser the shortfall (Deficiency Amount) (chunk_0103).\n\n4. **Calculation and Delivery**: \n   - The Purchaser is responsible for preparing a good faith calculation of the Final Purchase Price and delivering the Closing Statement to the Seller within ninety (90) days following the Closing Date (chunk_0105).\n   - If the Purchaser fails to deliver the Closing Statement within this period, the Estimated Closing Statement provided by the Seller will be deemed the Final Closing Statement (chunk_0106).\n\n5. **Payment Timing**: Payments for any Excess Amount or Deficiency Amount must be made within three (3) Business Days of the final determination of the Final Closing Statement (chunk_0117).",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容都有检索片段或参考证据支撑，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括购买价格、最终购买价格的定义、调整机制、计算和交付要求以及支付时间。",
+      "judge_status": "ok"
+    }
+  ]
+}

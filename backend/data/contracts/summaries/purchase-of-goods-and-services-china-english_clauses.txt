@@ -1,0 +1,159 @@
+文件: purchase-of-goods-and-services-china-english.pdf
+总章节数: 23  命中关键条款: 7
+========================================================================
+
+=== INTELLECTUAL PROPERTY RIGHTS ===
+10.1 
+如果有第三方诉称因货物或供应商提供的服务、或葛兰素史克使用或代表葛兰素史克使用
+货物或服务、或供应商为提供服务而使用的任何资产侵犯了该第三方的知识产权，供应商
+同意全额赔偿葛兰素史克及其雇员、关联公司、分包商和代理，无论全部或部分地、直接
+或间接地由此针对其提起的、引发的或遭受的所有诉讼请求、要求、诉讼和所有的损害、
+损失、费用和支出（包括但不限于律师费）。 
+The Supplier agrees to indemnify GSK and its employees, Affiliates, sub-contractors and 
+agents in full and on demand and keep them so indemnified against all claims, demands, 
+actions, proceedings and all damages, losses, costs and expenses (including without 
+limitation legal and other professional advisers fees), made against or incurred or suffered 
+by any of them and whether wholly or in part resulting directly or indirectly from any claim 
+by a third Party that the Goods or the provision of the Services by the Supplier or the use 
+by or behalf of GSK of the Goods or Services, or of any assets used b
+…（正文已截断）
+---
+
+=== CONFIDENTIALITY AND PUBLICITY ===
+11.1 
+供应商应当并确保其雇员和分包商应对葛兰素史克为合同之目的而向其披露的所有具有商
+业或技术性质的信息（“保密信息”）进行保密，且未经葛兰素史克事先书面同意，不得使
+用此等信息或披露给任何第三方。供应商应该、且确保其雇员和分包商像保守供应商的保
+密信息一样，保守葛兰素史克的保密信息，绝不能低于合理注意义务。任何时候只要葛兰
+素史克要求，都必须将葛兰素史克的保密信息返还给葛兰素史克或按照葛兰素史克的要求
+予以销毁。未经葛兰素史克事先书面同意，供应商不得披露、复制、公开或公布合同的存
+在或与之相关的任何信息，包括葛兰素史克的名称、货物、服务、交货地点或履行地点。 
+Supplier shall, and shall procure that its employees and sub-contractors shall, keep 
+confidential all information of a commercial or technical nature disclosed to Supplier by 
+GSK for the purpose of the Agreement (“Confidential Information”), and shall not use 
+or disclose such information to any third Party without GSK's prior written consent. 
+Supplier shall, and cause its employees and sub-contractors safeguard GSK Confidential 
+Information with the same standard of care that is used with Supplier’s con
+…（正文已截断）
+---
+
+=== LIABILITY AND INSURANCE ===
+20.1 
+供应商应赔偿葛兰素史克因货物或服务的缺陷、或是因供应商违反合同下的义务或任何法
+定义务、或是由于供应商的员工、代理或分包商的行为或疏忽而给葛兰素史克造成的或由
+葛兰素史克承担的任何责任、损害、索赔、费用、损失和支出。 
+
+14 
+ 
+ 
+Supplier shall indemnify GSK against any liabilities, damages, claims, costs, losses and 
+expenses incurred or paid by GSK howsoever arising from any defect in the Goods or 
+Services or any breach by Supplier of its obligations under the Agreement or of any 
+statutory duty or from any act or omission of Supplier’s employees, agents or sub-
+contractors. 
+ 
+20.2 
+供应商应就其在合同下的责任向信誉良好的保险公司投保，并应在葛兰素史克要求时向其
+提供保单和保费收据以供其核实。供应商对其所获得的由保险公司支付的用以全部或部分
+解决产生于合同、并且由葛兰素史克已支付的或理应由供应商支付给葛兰素史克的索赔的
+款项，应全部支付给葛兰素史克，不得予以抵销或提起反请求。 
+ 
+Supplier shall insure with a reputable insurance company its liabilities under the 
+Agreement if so required at any time produce the policy of insurance and th
+…（正文已截断）
+---
+
+=== TERMINATION ===
+15 
+ 
+22.1 
+在不影响22.4 款规定的前提下，除非合同另有规定，如果合同任何一方违反合同的规定
+且在另一方要求其对其违约行为进行补救的通知发出后三十(30)日内未对其违约行为作出
+补救，则另一方有权立即书面通知该违约方终止合同。 
+ 
+Subject to Clause 22.4, unless otherwise stipulated under the Agreement, either Party 
+may, by giving thirty (30) days’ written notice to the other Party, terminate the Agreement 
+if the other Party breaches any provision of the Agreement or defaults in the performance 
+of its obligations under the Agreement and does not remedy the default within thirty (30) 
+days after a written notice is given from the non-defaulting Party to remedy the default. 
+ 
+22.2 
+如果任何一方资不抵债、破产、解散、进入清算程序，或与其债权人达成和解，该方应当
+立即以书面方式将此情况通知对方，另一方有权立即解除合同。 
+ 
+If either Party shall become insolvency, bankrupt, dissolved, wound up, or shall compound 
+or make any arrangement with its creditors it shall 
+…（正文已截断）
+---
+
+=== CONSEQUENCES OF TERMINATION ===
+23.1 
+合同一旦终止，供应商应当在葛兰素史克要求的七日内，由葛兰素史克承担费用： 
+On termination of the Agreement Supplier shall, not later than seven (7) days after GSK’s 
+request but at GSK’s cost: 
+23.1.1 向葛兰素史克（或葛兰素史克指定的其他人）交付所有仍为其占有的符合合同规
+定的货物； 
+deliver to GSK (or as GSK shall direct) all quantities of the Goods in its possession 
+which comply with the Agreement; 
+23.1.2 向葛兰素史克归还由葛兰素史克提供给供应商的所有文件；和 
+return to GSK all documents provided to Supplier by GSK; and 
+23.1.3 确保将含有知识产权及/或含有与货物、货物的生产和提供服务相关的具有技术性
+质的信息、或含有保密性质的信息、并由葛兰素史克提供给供应商的所有文件交
+还给葛兰素史克，或依照葛兰素史克的意愿将其销毁。 
+ensure that all documents containing Intellectual Property Rights and/or any 
+information of a technical nature relating to the Goods, the manufacture of the 
+
+16 
+ 
+Goods and the provision of Services, or of a confidential nature and supplied by 
+GSK to Supplie
+…（正文已截断）
+---
+
+=== ANTI-BRIBERY AND CORRUPTION ===
+30.1 
+供应商同意：【他/她/它】在任何时候都将充分遵守所有适用法律和法规，包括但不限于
+反腐败法律；就本协议的履行而言，【他/她/它】没有且承诺不会直接或间接地做出、许
+诺、授权、批准或提议做出，或采取任何行动，促成任何付款或转移任何有价物，用以影
+响、诱导或奖励保护某种不正当利益的任何作为、不作为或决定，或者，以不适当的方式
+协助【他/她/它】或 葛兰素史克获取或维持业务或为了公共或商业贿赂的目的在任何方面
+提供协助，并承诺已经采取合理措施，防止分包商、代理商或任何其它第三方（受制于其
+控制力或决定性影响）做出上述行为。为免生疑问，该等行为包括向政府官员提供或安排
+非正规的、不适当的小额款项或礼物，以便争取到或加快完成某种例行的或必要的并且我
+们拥有合法权利的行动。为本协议之目的，“政府官员”（其中，‘政府’指的是政府的
+所有层级及细分机构，即：地方的、区域的、国家的、管理的、立法的、行政的或司法的
+以及皇家的或有统治权的家族）指的是：(a) 政府或政府的任何部门、代理、机构（包括
+国家拥有或控制的公共企业或实体）的任何官员或职员；(b) 公共国际组织（如世界银行
+或联合国）的任何官员或职员；(c) 政党的官员或职员，或者任何公职候选人；(d) 上述任
+何一款没有包含但根据适用法律（包括反贿赂反腐败法）被定义为政府官员或公职人员的
+任何人；和/或 (e) 为了或代表上述任何人员行使公职权力的任何人。“政府官员”应包括
+
+18 
+ 
+亲密家庭成员为政府官员（定义如上）且有能力（实际的或被人认为的）影响葛兰素史克
+业务或做出影响 葛兰素史克业务的正式决定的任何人。 
+Supplier agrees that [he/she/it] shall comply fully at all times with all applicable laws and 
+regulati
+…（正文已截断）
+---
+
+=== GOVERNING LAW AND DISPUTE RESOLUTIONS ===
+合同受中华人民共和国法律管辖和解释。因合同所发生的或与合同有关的一切争议，各方
+应通过友好协商解决，如协商不成，双方同意将争议提交上海国际仲裁中心按照该会现行
+的仲裁规则进行仲裁，仲裁地点为上海，仲裁裁决是终局的，对双方都具有约束力。 
+The Agreement shall be governed by and construed in accordance with the laws of the 
+People’s Republic of China. All disputes arising out of or in connection with the Agreement 
+shall be settled through friendly consultation between both Parties.  In case no settlement 
+can be reached, the Parties agree to submit the dispute to the Shanghai International 
+Arbitration Center (“SHIAC”) for arbitration in accordance with the SHIAC rules of 
+arbitration then in effect. The arbitration place shall be in Shanghai. The arbitration award 
+shall be final and binding on the Parties. 
+ 
+32 
+语言 
+   LANGUAGE 
+本基本条款以中、英文两种文字写成，两种文本具有同等效力。如果两种文本有不一致的
+地方，以中文文本为准。 
+This GTC is made in writ
+…（正文已截断）
+---

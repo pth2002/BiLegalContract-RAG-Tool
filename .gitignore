@@ -1,0 +1,117 @@
+# ======================
+# Python / FastAPI
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtualenv
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# pytest / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# env / secrets — never commit real credentials
+/.env
+backend/.env
+.env.local
+.env.production
+backend/.env.local
+backend/.env.production
+# .env.example is intentionally tracked (template for users)
+
+# ======================
+# Contract files and sample contracts — not for public repo
+# ======================
+backend/data/contracts/*.pdf
+backend/data/contracts/*.docx
+合同样例/
+
+# ======================
+# Development session logs
+# ======================
+backend/SESSION_LOG*.md
+
+# logs
+*.log
+
+# ======================
+# Node / React
+# ======================
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ======================
+# Databases / local artifacts
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+
+# ======================
+# OS / Editor
+# ======================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+
+# macOS (harmless)
+.DS_Store
+
+# ======================
+# HuggingFace model cache (several GB)
+# ======================
+backend/data/hf_cache/
+**/hf_cache/
+
+# ======================
+# Runtime data files (generated at runtime, not source)
+# ======================
+backend/data/vector_store.json
+backend/data/documents.json
+
+# ======================
+# Debug / scratch output files
+# ======================
+backend/data/eval/*.txt
+backend/data/eval/*.json
+!backend/data/eval/**/retrieval_benchmark_report.json
+
+# ======================
+# Local filesystem snapshots (contain model weights + venv, GBs)
+# ======================
+_snapshots/
+
+# ======================
+# Experiment tarballs
+# ======================
+experiment_results*.tar.gz
+
+# ======================
+# Cursor (keep yours if you commit rules; ignore only common local caches)
+# ======================
+# Cursor workspace storage / history
+.cursor/
+.history/
+
+# Claude Code workspace (session data, worktrees)
+.claude/

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #0f172a; /* Dark mode background */
+  color: #f8fafc; /* Light text */
+}
+
+/* Risk severity colors */
+.risk-high {
+  @apply border-red-500 bg-red-500/10;
+}
+
+.risk-medium {
+  @apply border-yellow-500 bg-yellow-500/10;
+}
+
+.risk-low {
+  @apply border-blue-500 bg-blue-500/10;
+}
+
+/* Animation classes */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s ease-out forwards;
+}
+
+/* Loading spinner */
+.spinner {
+  @apply inline-block w-6 h-6 border-2 border-current border-t-transparent rounded-full animate-spin;
+}

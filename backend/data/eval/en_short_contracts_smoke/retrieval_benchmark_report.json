@@ -1,0 +1,1135 @@
+{
+  "meta": {
+    "cases_file": "D:\\AI agent rag 合同项目\\contract\\backend\\data\\retrieval_benchmark_cases_en_short_contracts.json",
+    "case_count": 10,
+    "top_ks": [
+      1,
+      3,
+      5
+    ],
+    "final_top_k": 8,
+    "vector_backend": "local",
+    "method_base_chunk": {
+      "chunk_size": 240,
+      "overlap": 60
+    }
+  },
+  "chunk_strategy": [
+    {
+      "chunk_size": 240,
+      "overlap": 60,
+      "index": {
+        "backend": "local",
+        "documents": [
+          {
+            "document_id": "61111111-1111-4111-8111-111111111111",
+            "filename": "enterprise_loan_agreement_en.txt",
+            "chunk_count": 12,
+            "index_ms": 8013.79
+          },
+          {
+            "document_id": "62222222-2222-4222-8222-222222222222",
+            "filename": "technology_transfer_license_agreement_en.txt",
+            "chunk_count": 10,
+            "index_ms": 3186.21
+          },
+          {
+            "document_id": "63333333-3333-4333-8333-333333333333",
+            "filename": "management_consulting_services_agreement_en.txt",
+            "chunk_count": 12,
+            "index_ms": 3000.97
+          },
+          {
+            "document_id": "64444444-4444-4444-8444-444444444444",
+            "filename": "equipment_procurement_agreement_en.txt",
+            "chunk_count": 12,
+            "index_ms": 3206.57
+          },
+          {
+            "document_id": "65555555-5555-4555-8555-555555555555",
+            "filename": "senior_executive_employment_agreement_en.txt",
+            "chunk_count": 12,
+            "index_ms": 3010.26
+          }
+        ],
+        "avg_chunk_count": 11.6,
+        "total_index_ms": 20417.8,
+        "avg_index_ms": 4083.56
+      },
+      "eval": {
+        "method": "hybrid",
+        "rerank_enabled": true,
+        "rerank_pool_mult": 4,
+        "per_case": [
+          {
+            "case_id": "loan_interest_party_b_en",
+            "document": "enterprise_loan_agreement_en.txt",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0002",
+              "chunk_0003"
+            ],
+            "retrieved_ids": [
+              "chunk_0002",
+              "chunk_0003",
+              "chunk_0011",
+              "chunk_0004",
+              "chunk_0010",
+              "chunk_0007",
+              "chunk_0001",
+              "chunk_0006"
+            ],
+            "latency_ms": 3499.07,
+            "per_k": {
+              "1": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 1.0,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "loan_acceleration_party_b_en",
+            "document": "enterprise_loan_agreement_en.txt",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0008",
+              "chunk_0009"
+            ],
+            "retrieved_ids": [
+              "chunk_0008",
+              "chunk_0004",
+              "chunk_0000",
+              "chunk_0011",
+              "chunk_0007",
+              "chunk_0002",
+              "chunk_0003",
+              "chunk_0005"
+            ],
+            "latency_ms": 1785.37,
+            "per_k": {
+              "1": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 0.5,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "tech_fee_party_b_en",
+            "document": "technology_transfer_license_agreement_en.txt",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0003"
+            ],
+            "retrieved_ids": [
+              "chunk_0003",
+              "chunk_0002",
+              "chunk_0000",
+              "chunk_0005",
+              "chunk_0006",
+              "chunk_0007",
+              "chunk_0001",
+              "chunk_0004"
+            ],
+            "latency_ms": 1698.94,
+            "per_k": {
+              "1": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 1.0,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "tech_warranty_party_b_en",
+            "document": "technology_transfer_license_agreement_en.txt",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0005",
+              "chunk_0006"
+            ],
+            "retrieved_ids": [
+              "chunk_0007",
+              "chunk_0006",
+              "chunk_0009",
+              "chunk_0008",
+              "chunk_0004",
+              "chunk_0002",
+              "chunk_0000",
+              "chunk_0001"
+            ],
+            "latency_ms": 1726.22,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 0.5,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "consulting_prepay_party_a_en",
+            "document": "management_consulting_services_agreement_en.txt",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_0001",
+              "chunk_0003"
+            ],
+            "retrieved_ids": [
+              "chunk_0003",
+              "chunk_0002",
+              "chunk_0001",
+              "chunk_0007",
+              "chunk_0006",
+              "chunk_0005",
+              "chunk_0009",
+              "chunk_0008"
+            ],
+            "latency_ms": 1834.72,
+            "per_k": {
+              "1": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 1.0,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "consulting_dispute_party_a_en",
+            "document": "management_consulting_services_agreement_en.txt",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_0005",
+              "chunk_0007"
+            ],
+            "retrieved_ids": [
+              "chunk_0007",
+              "chunk_0006",
+              "chunk_0000",
+              "chunk_0008",
+              "chunk_0002",
+              "chunk_0005",
+              "chunk_0003",
+              "chunk_0001"
+            ],
+            "latency_ms": 1877.92,
+            "per_k": {
+              "1": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 0.5,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "procurement_acceptance_party_a_en",
+            "document": "equipment_procurement_agreement_en.txt",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_0002",
+              "chunk_0005"
+            ],
+            "retrieved_ids": [
+              "chunk_0005",
+              "chunk_0000",
+              "chunk_0003",
+              "chunk_0004",
+              "chunk_0006",
+              "chunk_0002",
+              "chunk_0001",
+              "chunk_0007"
+            ],
+            "latency_ms": 1861.04,
+            "per_k": {
+              "1": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 0.5,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "procurement_warranty_party_a_en",
+            "document": "equipment_procurement_agreement_en.txt",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_0007"
+            ],
+            "retrieved_ids": [
+              "chunk_0000",
+              "chunk_0006",
+              "chunk_0003",
+              "chunk_0005",
+              "chunk_0002",
+              "chunk_0001",
+              "chunk_0004",
+              "chunk_0007"
+            ],
+            "latency_ms": 1842.64,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "exec_probation_party_b_en",
+            "document": "senior_executive_employment_agreement_en.txt",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0003",
+              "chunk_0004"
+            ],
+            "retrieved_ids": [
+              "chunk_0004",
+              "chunk_0003",
+              "chunk_0006",
+              "chunk_0000",
+              "chunk_0005",
+              "chunk_0001",
+              "chunk_0007",
+              "chunk_0002"
+            ],
+            "latency_ms": 1885.78,
+            "per_k": {
+              "1": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 1.0,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "exec_noncompete_party_b_en",
+            "document": "senior_executive_employment_agreement_en.txt",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0005",
+              "chunk_0006"
+            ],
+            "retrieved_ids": [
+              "chunk_0005",
+              "chunk_0004",
+              "chunk_0006",
+              "chunk_0003",
+              "chunk_0001",
+              "chunk_0002",
+              "chunk_0007",
+              "chunk_0009"
+            ],
+            "latency_ms": 1925.31,
+            "per_k": {
+              "1": {
+                "recall": 0.5,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 1.0,
+                "hit": 1.0
+              }
+            }
+          }
+        ],
+        "macro": {
+          "recall@1": 0.45,
+          "recall@3": 0.7,
+          "recall@5": 0.7,
+          "hit@1": 0.8,
+          "hit@3": 0.9,
+          "hit@5": 0.9,
+          "avg_latency_ms": 1993.7
+        }
+      }
+    }
+  ],
+  "retrieval_methods": [
+    {
+      "method": "lexical",
+      "rerank_enabled": false,
+      "rerank_pool_mult": 4,
+      "per_case": [
+        {
+          "case_id": "loan_interest_party_b_en",
+          "document": "enterprise_loan_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0002",
+            "chunk_0003"
+          ],
+          "retrieved_ids": [
+            "chunk_0003",
+            "chunk_0004",
+            "chunk_0007",
+            "chunk_0002",
+            "chunk_0008",
+            "chunk_0001",
+            "chunk_0006",
+            "chunk_0011"
+          ],
+          "latency_ms": 3.95,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "loan_acceleration_party_b_en",
+          "document": "enterprise_loan_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0008",
+            "chunk_0009"
+          ],
+          "retrieved_ids": [
+            "chunk_0004",
+            "chunk_0008",
+            "chunk_0003",
+            "chunk_0007",
+            "chunk_0001",
+            "chunk_0011",
+            "chunk_0000",
+            "chunk_0002"
+          ],
+          "latency_ms": 3.43,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 0.5,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "tech_fee_party_b_en",
+          "document": "technology_transfer_license_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0003"
+          ],
+          "retrieved_ids": [
+            "chunk_0005",
+            "chunk_0003",
+            "chunk_0002",
+            "chunk_0001",
+            "chunk_0007",
+            "chunk_0006",
+            "chunk_0000",
+            "chunk_0004"
+          ],
+          "latency_ms": 3.19,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "tech_warranty_party_b_en",
+          "document": "technology_transfer_license_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0005",
+            "chunk_0006"
+          ],
+          "retrieved_ids": [
+            "chunk_0005",
+            "chunk_0007",
+            "chunk_0006",
+            "chunk_0009",
+            "chunk_0002",
+            "chunk_0004",
+            "chunk_0000",
+            "chunk_0001"
+          ],
+          "latency_ms": 2.68,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "consulting_prepay_party_a_en",
+          "document": "management_consulting_services_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0001",
+            "chunk_0003"
+          ],
+          "retrieved_ids": [
+            "chunk_0001",
+            "chunk_0002",
+            "chunk_0010",
+            "chunk_0011",
+            "chunk_0009",
+            "chunk_0008",
+            "chunk_0003",
+            "chunk_0000"
+          ],
+          "latency_ms": 3.5,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 0.5,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "consulting_dispute_party_a_en",
+          "document": "management_consulting_services_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0005",
+            "chunk_0007"
+          ],
+          "retrieved_ids": [
+            "chunk_0011",
+            "chunk_0001",
+            "chunk_0006",
+            "chunk_0010",
+            "chunk_0007",
+            "chunk_0002",
+            "chunk_0005",
+            "chunk_0008"
+          ],
+          "latency_ms": 2.82,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.5,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "procurement_acceptance_party_a_en",
+          "document": "equipment_procurement_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0002",
+            "chunk_0005"
+          ],
+          "retrieved_ids": [
+            "chunk_0005",
+            "chunk_0004",
+            "chunk_0007",
+            "chunk_0003",
+            "chunk_0006",
+            "chunk_0001",
+            "chunk_0011",
+            "chunk_0000"
+          ],
+          "latency_ms": 2.8,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 0.5,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "procurement_warranty_party_a_en",
+          "document": "equipment_procurement_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0007"
+          ],
+          "retrieved_ids": [
+            "chunk_0007",
+            "chunk_0005",
+            "chunk_0003",
+            "chunk_0000",
+            "chunk_0008",
+            "chunk_0001",
+            "chunk_0006",
+            "chunk_0011"
+          ],
+          "latency_ms": 2.95,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "exec_probation_party_b_en",
+          "document": "senior_executive_employment_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0003",
+            "chunk_0004"
+          ],
+          "retrieved_ids": [
+            "chunk_0004",
+            "chunk_0011",
+            "chunk_0003",
+            "chunk_0005",
+            "chunk_0000",
+            "chunk_0001",
+            "chunk_0008",
+            "chunk_0006"
+          ],
+          "latency_ms": 3.44,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "exec_noncompete_party_b_en",
+          "document": "senior_executive_employment_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0005",
+            "chunk_0006"
+          ],
+          "retrieved_ids": [
+            "chunk_0005",
+            "chunk_0004",
+            "chunk_0001",
+            "chunk_0006",
+            "chunk_0000",
+            "chunk_0003",
+            "chunk_0011",
+            "chunk_0007"
+          ],
+          "latency_ms": 5.24,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.4,
+        "recall@3": 0.65,
+        "recall@5": 0.8,
+        "hit@1": 0.7,
+        "hit@3": 0.9,
+        "hit@5": 1.0,
+        "avg_latency_ms": 3.4
+      }
+    }
+  ],
+  "rerank_pool": [
+    {
+      "method": "hybrid",
+      "rerank_enabled": true,
+      "rerank_pool_mult": 1,
+      "per_case": [
+        {
+          "case_id": "loan_interest_party_b_en",
+          "document": "enterprise_loan_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0002",
+            "chunk_0003"
+          ],
+          "retrieved_ids": [
+            "chunk_0002",
+            "chunk_0003",
+            "chunk_0004",
+            "chunk_0007",
+            "chunk_0001",
+            "chunk_0006",
+            "chunk_0000",
+            "chunk_0008"
+          ],
+          "latency_ms": 1299.41,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "loan_acceleration_party_b_en",
+          "document": "enterprise_loan_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0008",
+            "chunk_0009"
+          ],
+          "retrieved_ids": [
+            "chunk_0008",
+            "chunk_0004",
+            "chunk_0000",
+            "chunk_0011",
+            "chunk_0007",
+            "chunk_0002",
+            "chunk_0003",
+            "chunk_0010"
+          ],
+          "latency_ms": 1321.6,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 0.5,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "tech_fee_party_b_en",
+          "document": "technology_transfer_license_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0003"
+          ],
+          "retrieved_ids": [
+            "chunk_0003",
+            "chunk_0002",
+            "chunk_0000",
+            "chunk_0005",
+            "chunk_0006",
+            "chunk_0007",
+            "chunk_0001",
+            "chunk_0004"
+          ],
+          "latency_ms": 1312.7,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "tech_warranty_party_b_en",
+          "document": "technology_transfer_license_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0005",
+            "chunk_0006"
+          ],
+          "retrieved_ids": [
+            "chunk_0007",
+            "chunk_0006",
+            "chunk_0009",
+            "chunk_0008",
+            "chunk_0004",
+            "chunk_0002",
+            "chunk_0000",
+            "chunk_0005"
+          ],
+          "latency_ms": 1210.66,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 0.5,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "consulting_prepay_party_a_en",
+          "document": "management_consulting_services_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0001",
+            "chunk_0003"
+          ],
+          "retrieved_ids": [
+            "chunk_0003",
+            "chunk_0002",
+            "chunk_0001",
+            "chunk_0007",
+            "chunk_0006",
+            "chunk_0009",
+            "chunk_0010",
+            "chunk_0011"
+          ],
+          "latency_ms": 1299.81,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "consulting_dispute_party_a_en",
+          "document": "management_consulting_services_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0005",
+            "chunk_0007"
+          ],
+          "retrieved_ids": [
+            "chunk_0007",
+            "chunk_0006",
+            "chunk_0002",
+            "chunk_0005",
+            "chunk_0003",
+            "chunk_0001",
+            "chunk_0010",
+            "chunk_0011"
+          ],
+          "latency_ms": 1313.66,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "procurement_acceptance_party_a_en",
+          "document": "equipment_procurement_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0002",
+            "chunk_0005"
+          ],
+          "retrieved_ids": [
+            "chunk_0005",
+            "chunk_0003",
+            "chunk_0004",
+            "chunk_0006",
+            "chunk_0002",
+            "chunk_0001",
+            "chunk_0007",
+            "chunk_0011"
+          ],
+          "latency_ms": 1173.28,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "procurement_warranty_party_a_en",
+          "document": "equipment_procurement_agreement_en.txt",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_0007"
+          ],
+          "retrieved_ids": [
+            "chunk_0000",
+            "chunk_0006",
+            "chunk_0003",
+            "chunk_0005",
+            "chunk_0001",
+            "chunk_0007",
+            "chunk_0008",
+            "chunk_0011"
+          ],
+          "latency_ms": 1169.52,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "exec_probation_party_b_en",
+          "document": "senior_executive_employment_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0003",
+            "chunk_0004"
+          ],
+          "retrieved_ids": [
+            "chunk_0004",
+            "chunk_0003",
+            "chunk_0006",
+            "chunk_0000",
+            "chunk_0005",
+            "chunk_0001",
+            "chunk_0007",
+            "chunk_0011"
+          ],
+          "latency_ms": 1217.45,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "exec_noncompete_party_b_en",
+          "document": "senior_executive_employment_agreement_en.txt",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0005",
+            "chunk_0006"
+          ],
+          "retrieved_ids": [
+            "chunk_0005",
+            "chunk_0004",
+            "chunk_0006",
+            "chunk_0003",
+            "chunk_0001",
+            "chunk_0002",
+            "chunk_0007",
+            "chunk_0000"
+          ],
+          "latency_ms": 1211.79,
+          "per_k": {
+            "1": {
+              "recall": 0.5,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.45,
+        "recall@3": 0.7,
+        "recall@5": 0.8,
+        "hit@1": 0.8,
+        "hit@3": 0.9,
+        "hit@5": 0.9,
+        "avg_latency_ms": 1252.99
+      }
+    }
+  ],
+  "summary": {
+    "recommended_chunk": {
+      "chunk_size": 240,
+      "overlap": 60
+    },
+    "recommended_method": "lexical",
+    "recommended_rerank_pool_mult": 1
+  }
+}

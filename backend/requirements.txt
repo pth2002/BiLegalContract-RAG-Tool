@@ -1,0 +1,40 @@
+# Install with Tsinghua mirror:
+# pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+# FastAPI and server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Pydantic validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Ollama local AI
+ollama>=0.1.0
+
+# Document parsing
+pymupdf>=1.24.0
+python-docx>=1.1.0
+
+# Robust JSON parsing/repair for LLM outputs
+json-repair>=0.30.0
+
+# HTTP client for testing
+httpx>=0.26.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# RAG (pgvector + embedding)
+asyncpg>=0.29.0
+pgvector>=0.3.0
+sentence-transformers>=2.7.0
+protobuf>=5.0.0
+
+# OpenAI-compatible LLM provider (multi-query expansion, AutoDL migration)
+openai>=1.0.0

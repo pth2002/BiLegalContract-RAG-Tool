@@ -1,0 +1,25 @@
+Technology Transfer and License Agreement
+
+Party A (Transferor): Frontier Technology Co., Ltd.
+Party B (Transferee): Traditional Manufacturing Enterprise
+
+1. Subject Matter of Transfer
+Party A agrees to transfer to Party B the right to use its advanced manufacturing technology. The specific technical scope shall be subject to the list of technical materials provided by Party A.
+
+2. Transfer Fee and Payment Method
+1. Entry fee: RMB 500,000, payable within 7 days after execution of the contract.
+2. Royalty fee: For products manufactured by Party B using the technology, Party B shall pay Party A a royalty equal to 15% of sales revenue, settled once every quarter.
+3. The royalty payment period shall be 10 years from the effective date of the contract.
+
+3. Technical Performance and Acceptance
+1. Party A shall provide the relevant technical materials, and Party B shall independently verify the feasibility and effectiveness of the technology.
+2. Party A makes no guarantee whatsoever regarding the actual application results of the technology.
+
+4. Contract Term and Termination
+1. This contract shall remain valid for 10 years.
+2. Party A shall have the right to terminate the contract immediately if Party B fails to pay the fees on time, and the fees already paid shall not be refunded.
+3. After termination of the contract, Party B shall immediately cease using the relevant technology, and products already manufactured may not continue to be sold.
+
+5. Confidentiality and Non-Competition
+1. Party B shall keep confidential all technical information provided by Party A, and the confidentiality period shall be 5 years after termination of the contract.
+2. During the term of the contract and for 3 years after its termination, Party B shall not engage in the same or similar business as Party A, nor cooperate with Party A's competitors.

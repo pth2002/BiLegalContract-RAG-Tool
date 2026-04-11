@@ -1,0 +1,1060 @@
+{
+  "run_ts": "20260411_140117",
+  "aggregate": {
+    "total_cases": 32,
+    "scored_cases": 32,
+    "parse_errors": 0,
+    "other_errors": 0,
+    "macro_faithfulness": 4.375,
+    "macro_completeness": 3.531,
+    "by_group": {
+      "zh": {
+        "count": 15,
+        "faithfulness_avg": 4.2,
+        "completeness_avg": 3.067
+      },
+      "bilingual": {
+        "count": 7,
+        "faithfulness_avg": 3.857,
+        "completeness_avg": 3.714
+      },
+      "en": {
+        "count": 10,
+        "faithfulness_avg": 5.0,
+        "completeness_avg": 4.1
+      }
+    },
+    "retrieval_hit_cases": 20,
+    "retrieval_miss_cases": 12,
+    "hit_faithfulness_avg": 5.0,
+    "hit_completeness_avg": 4.4,
+    "miss_faithfulness_avg": 3.333,
+    "miss_completeness_avg": 2.083
+  },
+  "results": [
+    {
+      "case_id": "td_custody_fee_mgmt",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于基金费用和管理费的具体条款内容。",
+      "evidence_snippets": [
+        "基金管理人的基金管理费按基金资产净值的1.50%年费率计提",
+        "由基金托管人于次月前5个工作日内从基金财产中一次性支付给基金管理人"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0065",
+        "chunk_0025",
+        "chunk_0035"
+      ],
+      "retrieval_ms": 6521.2,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 5,
+      "faithfulness_reason": "AI 生成的回答没有编造信息，忠实于检索到的合同条款片段和参考证据。回答中明确表示未找到相关条款，符合检索结果。",
+      "completeness": 1,
+      "completeness_reason": "回答没有覆盖参考证据中的任何关键点，未能提供关于基金费用和管理费的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "td_custody_fee_custody",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于基金费用和托管费的具体条款内容。",
+      "evidence_snippets": [
+        "基金托管人的基金托管费按基金资产净值的0.25%年费率计提",
+        "在通常情况下，基金托管费按前一日基金资产净值的0.25%年费率计提"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0065",
+        "chunk_0025",
+        "chunk_0035"
+      ],
+      "retrieval_ms": 985.4,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 1,
+      "faithfulness_reason": "AI生成的回答声称未找到相关条款，但参考证据中明确提到了基金托管费的具体条款，因此回答不忠实于合同条款。",
+      "completeness": 1,
+      "completeness_reason": "回答完全没有覆盖参考证据中的关键信息，即基金托管费的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "td_custody_breach_liability",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于违约责任和赔偿责任的具体条款内容。",
+      "evidence_snippets": [
+        "本协议当事人不履行本协议或履行本协议不符合约定的，应当承担违约责任",
+        "一方当事人违反本协议，给另一方当事人造成损失的，应承担赔偿责任"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0025",
+        "chunk_0017",
+        "chunk_0019"
+      ],
+      "retrieval_ms": 792.3,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于违约责任和赔偿责任的具体内容如下：\n\n1. **违约责任**：\n   - 一方当事人不履行本协议或履行本协议不符合约定的，应当承担违约责任。（见[chunk_0060]）\n   - 当事人一方违约，另一方在职责范围内有义务及时采取必要的措施，尽力防止损失的扩大。（见[chunk_0061]）\n\n2. **赔偿责任**：\n   - 一方当事人违反本协议，给另一方当事人造成损失的，应承担赔偿责任。（见[chunk_0061]）\n   - 对损失的赔偿，仅限于直接损失。（见[chunk_0060]）\n\n3. **免责情况**：\n   - 因不可抗力不能履行本协议的，根据不可抗力的影响，违约方部分或全部免除责任，但法律另有规定的除外。（见[chunk_0061]）\n   - 当事人迟延履行后发生不可抗力的，不能免除责任。（见[chunk_0061]）\n   - 如发生不可抗力，基金管理人和/或基金托管人按照当时有效的法律法规或中国证监会的规定作为或不作为而造成的损失等，可以免责。（见[chunk_0060]）\n\n这些条款详细说明了合同中关于违约责任和赔偿责任的规定。",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容都有检索片段或参考证据支撑，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括违约责任、赔偿责任和免责情况的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "td_custody_force_majeure",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于免责条款和不可抗力的具体条款内容。",
+      "evidence_snippets": [
+        "因不可抗力不能履行本协议的，根据不可抗力的影响，违约方部分或全部免除责任",
+        "当事人迟延履行后发生不可抗力的，不能免除责任"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0025",
+        "chunk_0016",
+        "chunk_0047"
+      ],
+      "retrieval_ms": 860.1,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于免责条款和不可抗力的具体内容如下：\n\n1. **免责条款**：\n   - 当事人可以免责的情况包括：\n     1. 不可抗力（见下文详细说明）。\n     2. 基金管理人和/或基金托管人按照当时有效的法律法规或中国证监会的规定作为或不作为而造成的损失。\n     3. 基金管理人由于按照基金合同约定的投资原则而行使或不行使其投资权而造成的损失。（见[chunk_0060]）\n\n2. **不可抗力**：\n   - 因不可抗力不能履行本协议的，根据不可抗力的影响，违约方部分或全部免除责任，但法律另有规定的除外。当事人迟延履行后发生不可抗力的，不能免除责任。（见[chunk_0061]）\n\n这些条款详细说明了在何种情况下当事人可以免除责任，以及不可抗力的影响和限制。",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有内容都有检索片段或参考证据支撑，回答中的免责条款和不可抗力条款均能在检索到的合同条款中找到对应的出处。",
+      "completeness": 4,
+      "completeness_reason": "回答覆盖了大部分关键点，包括免责条款和不可抗力的具体内容，但未详细说明不可抗力的法律例外情况。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "td_custody_dispute_resolution",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于争议解决和仲裁的具体条款内容。",
+      "evidence_snippets": [
+        "除争议所涉的内容之外，本协议的当事人仍应履行本协议的其他规定",
+        "对仲裁各方当事人均具有约束力"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0065",
+        "chunk_0025",
+        "chunk_0035"
+      ],
+      "retrieval_ms": 877.8,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的条款片段，关于争议解决和仲裁的具体条款内容如下：\n\n- 基金管理人与基金托管人之间因本协议产生的或与本协议有关的争议可通过友好协商解决。\n- 若争议未能以协商方式解决的，则任何一方有权将争议提交位于北京市的中国国际经济贸易仲裁委员会，并按其时有效的仲裁规则进行仲裁。\n- 仲裁地点为北京市。\n- 仲裁裁决是终局的，对仲裁各方当事人均具有约束力。\n- 除非仲裁裁决另有规定，仲裁费用由败诉方承担。\n\n（来源于条款 [chunk_0064]）",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容均能在检索到的合同条款片段 [chunk_0064] 中找到出处，没有编造信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括争议解决的协商和仲裁流程、仲裁地点、仲裁裁决的约束力以及仲裁费用的承担。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "td_custody_termination",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于终止解除和清算的具体条款内容。",
+      "evidence_snippets": [
+        "发生以下情况，本托管协议应当终止",
+        "基金管理人和基金托管人应按照《基金合同》及有关法律法规的规定对本基金的财产进行清算"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0057",
+        "chunk_0025",
+        "chunk_0035"
+      ],
+      "retrieval_ms": 776.9,
+      "strict_hit5": 1.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 5,
+      "faithfulness_reason": "AI生成的回答'未找到相关条款'是忠实的，因为在检索到的合同条款片段和参考证据中确实没有明确提到关于终止解除和清算的具体条款内容。",
+      "completeness": 1,
+      "completeness_reason": "回答没有覆盖参考证据中的任何关键点，尤其是关于托管协议终止和基金财产清算的条款。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "hft_custody_fee_mgmt",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于基金费用和管理费的具体条款内容。",
+      "evidence_snippets": [
+        "基金管理人的基金管理费按基金资产净值的1.5%年费率计提",
+        "由基金托管人于次月首日起2-5个工作日内从基金财产中一次性支付给基金管理人"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0056",
+        "chunk_0055",
+        "chunk_0059",
+        "chunk_0058",
+        "chunk_0057",
+        "chunk_0007",
+        "chunk_0060",
+        "chunk_0061"
+      ],
+      "retrieval_ms": 827.7,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 5,
+      "faithfulness_reason": "AI生成的回答准确地反映了检索到的合同条款片段和参考证据中没有关于基金费用和管理费的具体条款内容，因此没有编造不存在的信息。",
+      "completeness": 1,
+      "completeness_reason": "回答没有覆盖参考证据中的任何关键点，因为回答中明确指出未找到相关条款。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "hft_custody_breach_liability",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于违约责任和责任划分的具体条款内容。",
+      "evidence_snippets": [
+        "由于下达违法、违规的指令所导致的责任，由基金管理人承担",
+        "基金托管人未对指令上签名和印鉴与预留签字样本和预留印鉴进行表面真实性审核"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0056",
+        "chunk_0055",
+        "chunk_0059",
+        "chunk_0058",
+        "chunk_0057",
+        "chunk_0007",
+        "chunk_0060",
+        "chunk_0016"
+      ],
+      "retrieval_ms": 678.2,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于违约责任和责任划分的具体内容如下：\n\n1. **违约责任**：\n   - 一方当事人违反本协议，给另一方当事人造成损失的，应承担赔偿责任。（chunk_0056）\n   - 本协议当事人不履行本协议或履行本协议不符合约定的，应当承担违约责任。（chunk_0055）\n\n2. **责任划分**：\n   - 因本协议当事人违约给基金财产或者基金份额持有人造成损害的，应当分别对各自的行为依法承担赔偿责任。因共同行为给基金财产或者基金份额持有人造成损害的，应当承担连带赔偿责任。（chunk_0055）\n   - 发生不可抗力的情况下，违约方部分或全部免除责任，但法律另有规定的除外。当事人迟延履行后发生不可抗力的，不能免除责任。（chunk_0056）\n   - 基金管理人和基金托管人对由于下达违法、违规的指令所导致的责任，由基金管理人承担。（chunk_0057）\n   - 基金托管人未对指令上签名和印鉴进行表面真实性审核，导致执行了应当无效的指令，由此产生的责任应由该基金托管人承担。（chunk_0058）\n\n这些条款详细说明了在违约情况下的责任承担方式和条件。",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容都有检索片段或参考证据支撑，没有编造的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答覆盖了参考证据中的所有关键点，包括违约责任和责任划分的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "hft_custody_dispute_resolution",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于争议解决和仲裁的具体条款内容。",
+      "evidence_snippets": [
+        "仲裁裁决是终局性的并对各方当事人具有约束力",
+        "仲裁地点为上海市"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0056",
+        "chunk_0055",
+        "chunk_0059",
+        "chunk_0058",
+        "chunk_0057",
+        "chunk_0007",
+        "chunk_0060",
+        "chunk_0061"
+      ],
+      "retrieval_ms": 908.1,
+      "strict_hit5": 0.0,
+      "generated_answer": "根据检索到的合同条款，关于争议解决和仲裁的具体条款内容如下：\n\n- 本协议适用中华人民共和国法律并从其解释。\n- 基金管理人与基金托管人之间因本协议产生的或与本协议有关的争议可通过友好协商解决。\n- 如经友好协商未能解决的，任何一方均有权将争议提交中国国际经济贸易仲裁委员会，根据该会当时有效的仲裁规则进行仲裁，仲裁地点为上海市。\n- 仲裁裁决是终局性的并对各方当事人具有约束力，仲裁费用由败诉方承担。\n\n（来源于[chunk_0060]）",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容均能在检索到的合同条款片段或参考证据中找到出处，没有编造信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括适用法律、争议解决方式、仲裁地点和仲裁裁决的约束力等。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "fund_contract_fee_mgmt",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于基金费用和管理费的具体条款内容。",
+      "evidence_snippets": [
+        "基金管理费按前一日基金资产净值的年费率计提",
+        "经基金托管人复核后于次月首日起3 个工作日内从基金财产中一次性支付给基金管理人"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0153",
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0007",
+        "chunk_0138",
+        "chunk_0009",
+        "chunk_0066",
+        "chunk_0119"
+      ],
+      "retrieval_ms": 791.2,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 1,
+      "faithfulness_reason": "AI 生成的回答声称未找到相关条款，但参考证据中明确提到了基金管理费的计提和支付方式，说明回答与合同条款不符，存在编造。",
+      "completeness": 1,
+      "completeness_reason": "回答完全没有覆盖参考证据中的关键信息，即关于基金管理费的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "fund_contract_fee_custody",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于基金费用和托管费的具体条款内容。",
+      "evidence_snippets": [
+        "基金托管费按前一日基金资产净值的年费率计提",
+        "经基金托管人复核后于次月首日起3 个工作日内从基金财产中一次性支付给基金托管人"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0153",
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0007",
+        "chunk_0138",
+        "chunk_0009",
+        "chunk_0066",
+        "chunk_0119"
+      ],
+      "retrieval_ms": 834.8,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 1,
+      "faithfulness_reason": "AI 生成的回答声称未找到相关条款，但参考证据中明确提到了基金托管费的计提和支付方式，说明回答与合同条款不符，存在编造问题。",
+      "completeness": 1,
+      "completeness_reason": "回答完全没有覆盖参考证据中的关键信息，即关于基金托管费的计提和支付方式的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "fund_contract_breach",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于违约责任和赔偿的具体条款内容。",
+      "evidence_snippets": [
+        "因违反基金合同导致基金财产的损失或损害基金份额持有人合法权益，应当承担赔偿责任",
+        "基金份额持有人应先于其他受损方获得赔偿"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0153",
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0007",
+        "chunk_0009",
+        "chunk_0120",
+        "chunk_0119",
+        "chunk_0118"
+      ],
+      "retrieval_ms": 697.1,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于违约责任和赔偿的具体内容如下：\n\n1. **违约责任**：\n   - 基金管理人、基金托管人在履行各自职责的过程中，若违反基金合同约定，给基金财产或者基金份额持有人造成损害的，应分别对各自的行为依法承担赔偿责任；因共同行为造成损害的，应承担连带赔偿责任（条款二十）。\n   - 免责情况包括不可抗力，以及基金管理人和/或基金托管人按照有效法律法规或中国证监会的规定作为或不作为而造成的损失（条款二十）。\n\n2. **赔偿责任**：\n   - 基金合同当事人违反合同，给其他当事人造成经济损失的，应承担赔偿责任。在违约情况下，若合同能继续履行，应继续履行（条款二十）。\n   - 守约方应采取适当措施防止损失扩大，未采取措施导致损失扩大的，不得就扩大的损失要求赔偿。守约方因防止损失扩大而支出的合理费用由违约方承担（条款二十）。\n   - 因当事人之一违约导致其他当事人损失的，基金份额持有人应先于其他受损方获得赔偿（条款二十）。\n\n以上是合同中关于违约责任和赔偿的具体条款内容。",
+      "faithfulness": 5,
+      "faithfulness_reason": "回答中的所有内容都可以在检索到的合同条款片段中找到出处，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括违约责任和赔偿责任的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "fund_contract_termination",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于终止解除和清算的具体条款内容。",
+      "evidence_snippets": [
+        "基金份额持有人大会决定终止的",
+        "基金管理人职责终止，而在6个月内没有新的基金管理人承接的"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0153",
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0007",
+        "chunk_0138",
+        "chunk_0009",
+        "chunk_0151",
+        "chunk_0119"
+      ],
+      "retrieval_ms": 866.7,
+      "strict_hit5": 0.0,
+      "generated_answer": "根据检索到的合同条款片段，关于终止解除和清算的具体条款内容如下：\n\n1. **基金合同的终止**（见[chunk_0151]）：\n   - 有下列情形之一的，在履行相关程序后本基金合同终止：\n     1. 基金份额持有人大会决定终止的；\n     2. 基金管理人职责终止，而在6个月内没有新的基金管理人承接的；\n     3. 基金托管人职责终止，而在6个月内没有新的基金托管人承接的；\n     4. 相关法律法规和中国证监会规定的其他情况。\n\n2. **基金财产的清算**（见[chunk_0151]）：\n   - 基金合同终止情形发生后，成立基金财产清算小组，基金财产清算小组在中国证监会的监督下进行基金清算。\n   - 基金财产清算小组成员由基金管理人、基金托管人、具有符合《中华人民共和国证券法》规定的注册会计师、律师以及中国证监会指定的人员组成。基金财产清算小组可以聘用必要的工作人员。\n   - 基金财产清算小组负责基金财产的保管、清理、估价、变现和分配。基金清算小组可以依法进行必要的民事活动。\n\n3. **基金财产清算程序**（见[chunk_0151]）：\n   - 基金合同终止情形发生时，基金财产清算程序启动。\n\n4. **基金财产清算的公告**（见[chunk_0153]）：\n   - 基金财产清算报告于基金合同终止并报中国证监会备案后5个工作日内由基金财产清算小组公告；清算过程中的有关重大事项须及时公告；基金财产清算结果经符合《中华人民共和国证券法》规定的会计师事务所审计，律师事务所出具法律意见书后，由基金财产清算小组报中国证监会备案并公告。\n\n5. **基金财产清算账册及文件的保存**（见[chunk_0153]）：\n   - 基金财产清算账册及有关文件由基金托管人保存，保存时间不低于法律法规规定的期限。",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容均能在检索到的合同条款片段中找到出处，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括合同终止的条件、清算小组的组成和职责、清算程序、公告要求以及账册保存等细节。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "fund_contract_dispute",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于争议解决和仲裁的具体条款内容。",
+      "evidence_snippets": [
+        "仲裁裁决是终局的，对当事人均有约束力",
+        "仲裁地点为北京市"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0153",
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0007",
+        "chunk_0138",
+        "chunk_0009",
+        "chunk_0066",
+        "chunk_0120"
+      ],
+      "retrieval_ms": 779.7,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于争议解决和仲裁的具体内容如下：\n\n二十一、争议的处理\n\n对于因本基金合同产生或与本基金合同有关的争议，基金合同当事人应尽量通过协商、调解途径解决。不愿或者不能通过协商、调解解决的，任何一方均有权将争议提交中国国际经济贸易仲裁委员会，按照中国国际经济贸易仲裁委员会届时有效的仲裁规则进行仲裁。仲裁地点为北京市。仲裁裁决是终局的，对当事人均有约束力。\n\n争议处理期间，基金合同当事人应恪守各自的职责，继续忠实、勤勉、尽责地履行基金合同规定的义务，维护基金份额持有人的合法权益。\n\n本基金合同适用中华人民共和国法律并从其解释。",
+      "faithfulness": 5,
+      "faithfulness_reason": "回答中的内容完全可以在检索到的合同条款片段中找到出处，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括争议解决的程序、仲裁地点和仲裁裁决的终局性等。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "fund_contract_manager_replace",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于更换条件和管理人更换的具体条款内容。",
+      "evidence_snippets": [
+        "基金管理人被依法取消其基金管理资格的",
+        "新任基金管理人由基金托管人或者由单独或合计持有基金总份额10%以上的基金份额持有人提名"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0153",
+        "chunk_0154",
+        "chunk_0155",
+        "chunk_0007",
+        "chunk_0138",
+        "chunk_0009",
+        "chunk_0066",
+        "chunk_0120"
+      ],
+      "retrieval_ms": 891.6,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 5,
+      "faithfulness_reason": "AI生成的回答'未找到相关条款'是忠实的，因为在检索到的合同条款片段和参考证据中确实没有关于更换条件和管理人更换的具体条款内容。",
+      "completeness": 1,
+      "completeness_reason": "回答没有覆盖任何参考证据中的关键信息，因为AI未能找到相关条款。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_payment_terms",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于付款条件和GSK付账日的具体条款内容。",
+      "evidence_snippets": [
+        "Payment will be arranged on the first GSK Payment Day after 60 days",
+        "所有发票上必须列明正确的采购订单号"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0016",
+        "chunk_0017",
+        "chunk_0035",
+        "chunk_0053",
+        "chunk_0023",
+        "chunk_0008",
+        "chunk_0010",
+        "chunk_0026"
+      ],
+      "retrieval_ms": 1202.2,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于付款条件和GSK付账日的具体条款内容如下：\n\n- **价格和付款条款**：价格在合同期内固定不变，已包括包装、运输、保险等所有相关费用，除非双方另有书面约定。任何价格上涨必须经葛兰素史克事先书面同意。（条款5.2）\n\n- **GSK付账日**：除非合同中另有约定，GSK付账日为根据葛兰素史克财务制度确定的每月可以向供应商进行支付的日期。付款将在葛兰素史克财务部门收到正确发票（如合同无特别约定，该等发票应当为增值税专用发票，发票金额必须准确并且标注订单号码以及葛兰素史克联系人）满60日后的第一个GSK付账日安排。（条款5.2）\n\n- **发票要求**：所有发票上必须列明正确的采购订单号。对于无订单号的发票，葛兰素史克有权拒绝且不承担任何责任。（条款5.3）\n\n- **发票寄送地址**：为确保正常付款，所有的发票应寄往采购订单上注明的地址。（条款5.4）\n\n- **发票争议**：如果葛兰素史克认为供应商提交的发票有缺陷或相关货物或服务未能履行合同义务，葛兰素史克有权暂时终止就该争议金额部分的付款，并应在收到发票后的14日内通知供应商。（条款5.5）",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容均能在检索到的合同条款片段中找到出处，没有编造信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括付款条件、GSK付账日、发票要求、发票寄送地址和发票争议等。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_ip_indemnity",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于知识产权和赔偿责任的具体条款内容。",
+      "evidence_snippets": [
+        "供应商同意全额赔偿葛兰素史克及其雇员、关联公司、分包商和代理",
+        "侵犯了该第三方的知识产权"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0057",
+        "chunk_0103",
+        "chunk_0079",
+        "chunk_0120",
+        "chunk_0036",
+        "chunk_0004",
+        "chunk_0058",
+        "chunk_0053"
+      ],
+      "retrieval_ms": 833.5,
+      "strict_hit5": 0.0,
+      "generated_answer": "根据检索到的合同条款片段，关于知识产权和赔偿责任的具体条款内容如下：\n\n1. **知识产权**：\n   - \"知识产权\"指专利、外观设计、商标和服务标记（无论注册与否）、域名、著作权、数据库权利、精神权利和所有类似的财产权，包括存在于世界各地的在发明、设计、绘图、计算机程序、保密信息、商号、商誉以及申请保护上述权利之上的各项权利。（来源于chunk_0004）\n\n2. **赔偿责任**：\n   - 供应商应赔偿葛兰素史克因货物或服务的缺陷、或是因供应商违反合同下的义务或任何法定义务、或是由于供应商的员工、代理或分包商的行为或疏忽而给葛兰素史克造成的或由葛兰素史克承担的任何责任、损害、索赔、费用、损失和支出。（来源于chunk_0053）\n\n未找到其他相关条款。",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有内容都有检索片段或参考证据支撑。知识产权的定义来自chunk_0004，赔偿责任的内容来自chunk_0053。",
+      "completeness": 4,
+      "completeness_reason": "回答覆盖了大部分关键点，但未提及参考证据中关于第三方知识产权侵权的赔偿责任。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_liability_indemnity",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于赔偿责任和违约损失的具体条款内容。",
+      "evidence_snippets": [
+        "供应商应赔偿葛兰素史克因货物或服务的缺陷",
+        "Supplier shall indemnify GSK against any liabilities, damages, claims, costs, losses and expenses"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0057",
+        "chunk_0103",
+        "chunk_0079",
+        "chunk_0120",
+        "chunk_0036",
+        "chunk_0058",
+        "chunk_0053",
+        "chunk_0066"
+      ],
+      "retrieval_ms": 983.8,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 1,
+      "faithfulness_reason": "AI生成的回答声称未找到相关条款，但实际上检索到的合同条款片段中包含了关于赔偿责任的内容，尤其是chunk_0053明确提到了赔偿条款。",
+      "completeness": 1,
+      "completeness_reason": "AI生成的回答完全没有覆盖参考证据中的任何关键点，尤其是关于赔偿责任的条款。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_termination_30days",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于终止解除和违约终止的具体条款内容。",
+      "evidence_snippets": [
+        "terminate the Agreement",
+        "如果合同任何一方违反合同的规定且在另一方要求其对其违约行为进行补救的通知发出后三十(30)日内未对其违约行为作出补救"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0057",
+        "chunk_0103",
+        "chunk_0079",
+        "chunk_0061",
+        "chunk_0036",
+        "chunk_0058",
+        "chunk_0053",
+        "chunk_0066"
+      ],
+      "retrieval_ms": 914.1,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款片段，关于合同终止和违约终止的具体条款内容如下：\n\n1. **违约终止（条款22.1）**：\n   - 如果合同任何一方违反合同的规定，且在另一方要求其对其违约行为进行补救的通知发出后三十(30)日内未对其违约行为作出补救，则另一方有权立即书面通知该违约方终止合同。\n\n2. **资不抵债、破产等情况的终止（条款22.2）**：\n   - 如果任何一方资不抵债、破产、解散、进入清算程序，或与其债权人达成和解，该方应当立即以书面方式将此情况通知对方，另一方有权立即解除合同。\n\n3. **所有权或控制权变化的终止（条款22.3）**：\n   - 如果在合同有效期内，任何一方的所有权或实际的控制权发生变化，另一方在收到通知或知悉该变化后，如果认为该变化对其利益产生不利影响，则有权立即书面通知对方终止合同。\n\n4. **不可抗力导致的终止（条款12.2）**：\n   - 如果任何一方由于不可抗力影响而导致不能或迟延履行其在合同下的义务连续或总计超过60天，则另一方有权以书面方式通知对方立即终止合同。\n\n这些条款详细说明了在不同情况下合同终止的条件和程序。",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容均能在检索到的合同条款片段中找到出处，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括违约终止、资不抵债、所有权变化和不可抗力导致的终止等情况。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_confidentiality",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于保密义务和保密信息的具体条款内容。",
+      "evidence_snippets": [
+        "供应商应当并确保其雇员和分包商应对葛兰素史克为合同之目的而向其披露的所有具有商业或技术性质的信息",
+        "未经葛兰素史克事先书面同意，不得使用此等信息或披露给任何第三方"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0057",
+        "chunk_0103",
+        "chunk_0079",
+        "chunk_0120",
+        "chunk_0036",
+        "chunk_0058",
+        "chunk_0053",
+        "chunk_0066"
+      ],
+      "retrieval_ms": 846.5,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 1,
+      "faithfulness_reason": "AI生成的回答声称未找到相关条款，但参考证据中明确提到了保密义务和保密信息的相关条款。",
+      "completeness": 1,
+      "completeness_reason": "AI生成的回答完全没有覆盖参考证据中关于保密义务和保密信息的关键内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_governing_law",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于适用法律和争议解决的具体条款内容。",
+      "evidence_snippets": [
+        "合同受中华人民共和国法律管辖和解释",
+        "双方同意将争议提交上海国际仲裁中心"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0057",
+        "chunk_0103",
+        "chunk_0079",
+        "chunk_0120",
+        "chunk_0036",
+        "chunk_0058",
+        "chunk_0053",
+        "chunk_0066"
+      ],
+      "retrieval_ms": 986.0,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的条款片段，关于适用法律和争议解决的具体条款内容如下：\n\n合同受中华人民共和国法律管辖和解释。因合同所发生的或与合同有关的一切争议，各方应通过友好协商解决，如协商不成，双方同意将争议提交上海国际仲裁中心按照该会现行的仲裁规则进行仲裁，仲裁地点为上海，仲裁裁决是终局的，对双方都具有约束力。（见[chunk_0079]）",
+      "faithfulness": 5,
+      "faithfulness_reason": "回答中的内容完全可以在检索到的合同条款片段[chunk_0079]中找到出处，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括适用法律和争议解决的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_anti_bribery",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "请说明本合同中关于反贿赂和合规的具体条款内容。",
+      "evidence_snippets": [
+        "供应商同意：【他/她/它】在任何时候都将充分遵守所有适用法律和法规，包括但不限于反腐败法律",
+        "不会直接或间接地做出、许诺、授权、批准或提议做出"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0057",
+        "chunk_0067",
+        "chunk_0103",
+        "chunk_0079",
+        "chunk_0120",
+        "chunk_0036",
+        "chunk_0078",
+        "chunk_0058"
+      ],
+      "retrieval_ms": 1174.1,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于反贿赂和合规的具体条款内容如下：\n\n- 供应商同意在任何时候都将充分遵守所有适用法律和法规，包括但不限于反腐败法律。在履行本协议时，供应商承诺不会直接或间接地进行任何影响、诱导或奖励不正当利益的行为，也不会为公共或商业贿赂的目的提供协助。供应商还承诺采取合理措施防止分包商、代理商或任何其它第三方进行上述行为（见条款30.1）。\n\n- 供应商应向相关人员提供反贿赂以及反腐败培训，包括任何相关的分包商，并应向葛兰素史克提供对培训进行评估的机会，以确认培训是否符合标准，并根据请求开展额外的培训（见chunk_0078）。",
+      "faithfulness": 5,
+      "faithfulness_reason": "回答中的所有内容都可以在检索到的合同条款片段中找到出处，特别是关于反贿赂和合规的条款内容，完全忠实于合同条款。",
+      "completeness": 5,
+      "completeness_reason": "回答覆盖了参考证据中的所有关键点，包括供应商的合规承诺和培训要求，完整地反映了合同条款的内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_purchase_price",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "What are the specific contractual provisions regarding Purchase Price and Final Purchase Price?",
+      "evidence_snippets": [
+        "hereunder shall be (i) an amount in cash equal to the Final Purchase Price",
+        "the assumption of the Transferred Liabilities"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0046",
+        "chunk_0103",
+        "chunk_0100",
+        "chunk_0105",
+        "chunk_0401",
+        "chunk_0106",
+        "chunk_0117",
+        "chunk_0102"
+      ],
+      "retrieval_ms": 3106.6,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Purchase Price and Final Purchase Price are as follows:\n\n1. **Purchase Price**: The purchase price for the transactions is an amount in cash equal to the Final Purchase Price and the assumption of the Transferred Liabilities (Clause 3.1).\n\n2. **Final Purchase Price**: The Final Purchase Price is defined as $50,000,000, plus the (positive or negative) Inventory Cost, plus the (positive or negative) Net Working Capital, as set forth in the Final Closing Statement (chunk_0046).\n\n3. **Post-Closing Adjustment**: \n   - If the Final Purchase Price exceeds the Estimated Purchase Price, the Purchaser shall pay the Seller the Excess Amount.\n   - If the Final Purchase Price is less than the Estimated Purchase Price, the Seller shall pay the Purchaser the Deficiency Amount (chunk_0103).\n\n4. **Calculation and Delivery**: \n   - The Purchaser is responsible for preparing a good faith calculation of the Final Purchase Price and delivering the Closing Statement to the Seller no later than ninety days following the Closing Date (chunk_0105).\n   - If the Purchaser fails to deliver the Closing Statement within the specified period, the Estimated Closing Statement provided by the Seller will be deemed the Final Closing Statement (chunk_0106).\n\n5. **Payment of Excess or Deficiency Amount**: Payments related to the Excess or Deficiency Amount must be made within three Business Days of the final determination of the Final Closing Statement (chunk_0117).\n\n6. **Indemnification Payments**: Any indemnification payments made under the agreement are treated as an adjustment to the Final Purchase Price for tax purposes, unless otherwise required by law (chunk_0401).",
+      "faithfulness": 5,
+      "faithfulness_reason": "所有回答内容都有检索片段或参考证据支撑，没有编造不存在的信息。",
+      "completeness": 5,
+      "completeness_reason": "回答完全覆盖了参考证据中的所有关键点，包括购买价格、最终购买价格的定义、调整机制、计算和交付要求、支付条款以及赔偿支付的税务处理。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_indemnification_survival",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "What are the specific contractual provisions regarding Indemnification and Survival?",
+      "evidence_snippets": [
+        "Fundamental Representations shall survive the Closing, and shall terminate on the six (6) year",
+        "shall terminate on the eighteen (18) month anniversary of the Closing Date"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0362",
+        "chunk_0384",
+        "chunk_0389",
+        "chunk_0370",
+        "chunk_0014",
+        "chunk_0401",
+        "chunk_0098",
+        "chunk_0385"
+      ],
+      "retrieval_ms": 3451.0,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Indemnification and Survival are as follows:\n\n1. **Survival** (Clause 9.1):\n   - Each representation and warranty in Article IV and Article V survives the Closing and terminates on the eighteen (18) month anniversary of the Closing Date.\n   - Seller Fundamental Representations and Purchaser Fundamental Representations survive the Closing and terminate on the six (6) year anniversary of the Closing Date.\n   - Representations and warranties in Section 4.15 survive the Closing Date and remain in force until 60 days past the expiration of the applicable statute of limitations for the Taxes in question.\n   - Covenants and agreements required to be performed in whole prior to the Closing survive the Closing. (Clause 9.1(a))\n\n2. **Indemnification Procedures**:\n   - An Indemnified Party must deliver a written notice (Indemnification Claim Notice) to the Indemnifying Party promptly after acquiring knowledge of the fact, event, or circumstance giving rise to a claim for Losses. The notice should specify the nature, facts, circumstances, and amount or estimate of the potential Losses. (Clause 9.5(a))\n   - For Direct Claims, the Indemnified Party must deliver an Indemnification Claim Notice to the Indemnifying Party promptly. Failure to do so does not relieve the Indemnifying Party of its obligations unless materially prejudiced. (Clause 9.5(b))\n\n3. **Mitigation**:\n   - Each Indemnified Party must take commercially reasonable steps to mitigate all Losses promptly after becoming aware of any event giving rise to indemnifiable Losses. (Clause 9.6)\n\n4. **Treatment of Indemnification Payments**:\n   - Indemnification payments are treated for tax purposes as an adjustment to the Final Purchase Price, unless otherwise required by applicable law. (Clause 9.7)\n\nThese provisions outline the survival of representations and warranties, the process for making indemnification claims, the obligation to mitigate losses, and the tax treatment of indemnification payments.",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated response accurately reflects the information found in the retrieved contract fragments and reference evidence. All details mentioned in the response can be traced back to the provided sources.",
+      "completeness": 4,
+      "completeness_reason": "The response covers most of the key points from the reference evidence, including survival terms, indemnification procedures, mitigation, and tax treatment of indemnification payments. However, it does not explicitly mention the limitations on indemnification, which is a minor detail present in the retrieved fragments.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_indemnification_seller",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "What are the specific contractual provisions regarding Indemnification and Seller obligations?",
+      "evidence_snippets": [
+        "Fundamental Representations shall survive the Closing, and shall terminate on the six (6) year",
+        "shall terminate on the six (6) year anniversary of the Closing Date"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0360",
+        "chunk_0269",
+        "chunk_0037",
+        "chunk_0358",
+        "chunk_0124",
+        "chunk_0345",
+        "chunk_0359",
+        "chunk_0012"
+      ],
+      "retrieval_ms": 3163.6,
+      "strict_hit5": 0.0,
+      "generated_answer": "No relevant clause found regarding Indemnification.\n\nFor Seller obligations, refer to Clause 8.3, which outlines the Seller's obligations at the Closing. The Seller is required to deliver to the Purchaser the following documents in a form and substance reasonably acceptable to the Purchaser:\n\n- An executed copy of the Bill of Sale, Assignment and Assumption Agreement.\n- An executed copy of the Transition Services Agreement.\n- Executed copies of the Lease Assignments.",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated answer accurately reflects the information found in the retrieved contract fragments. It correctly identifies that there is no relevant clause regarding Indemnification and accurately summarizes the Seller obligations as outlined in Clause 8.3.",
+      "completeness": 3,
+      "completeness_reason": "The answer covers the key points regarding Seller obligations as found in the retrieved fragments but does not address the lack of information on Indemnification in detail. It could have mentioned the absence of Indemnification clauses more explicitly.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_termination_outside_date",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "What are the specific contractual provisions regarding Termination and Outside Date?",
+      "evidence_snippets": [
+        "terminated and the transactions contemplated herein may be abandoned",
+        "consummated on or prior to 5:00 pm Pacific Time on the Outside Date"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0402",
+        "chunk_0057",
+        "chunk_0405",
+        "chunk_0404",
+        "chunk_0222",
+        "chunk_0406",
+        "chunk_0082",
+        "chunk_0349"
+      ],
+      "retrieval_ms": 3003.4,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Termination and Outside Date are as follows:\n\n1. **Termination Events (Article X, Section 10.1):**\n   - The agreement may be terminated by mutual written consent of the Parties.\n   - After March 4, 2020 (the “Outside Date”), any Party may terminate the agreement by notice to the other Party if the Closing has not been consummated by 5:00 pm Pacific Time on the Outside Date. However, the right to terminate under this section is not available to any Party whose failure caused the delay (Section 10.1(b)).\n\n2. **Automatic Termination:**\n   - The agreement will automatically terminate if the Supply Agreement is validly terminated prior to Closing by Purchaser in accordance with its terms (Section 10.1(g)).\n\n3. **Effect of Termination (Section 10.2):**\n   - Upon termination, the agreement becomes void and of no further force and effect, and all further obligations of the Parties under the agreement terminate. However, certain sections, including Sections 6.2(b), 6.4, 10.2, and Article XI, remain in full force and effect.\n\n4. **Definition of \"Outside Date\":**\n   - The \"Outside Date\" is defined as March 4, 2020, as set forth in Section 10.1(b).\n\nThese provisions outline the conditions under which the agreement can be terminated and the implications of such termination.",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated answer is fully supported by the retrieved contract fragments and reference evidence. All mentioned provisions, including termination events, automatic termination, effect of termination, and the definition of 'Outside Date', are directly referenced in the provided contract excerpts.",
+      "completeness": 5,
+      "completeness_reason": "The answer covers all key points from the reference evidence, including the conditions for termination, the automatic termination clause, the effect of termination, and the definition of 'Outside Date'. No critical information from the reference evidence is omitted.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_closing_conditions",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "What are the specific contractual provisions regarding Closing and Conditions Precedent?",
+      "evidence_snippets": [
+        "entered any Law or Order that is in effect on the Closing Date",
+        "the effect of prohibiting or enjoining the Purchase"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0346",
+        "chunk_0012",
+        "chunk_0347",
+        "chunk_0351",
+        "chunk_0105",
+        "chunk_0349",
+        "chunk_0268",
+        "chunk_0106"
+      ],
+      "retrieval_ms": 3083.6,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Closing and Conditions Precedent are outlined in Article VII of the contract. Here are the relevant clauses:\n\n1. **Conditions Precedent to Obligations of Purchaser and Seller and the Other Selling Entities (Clause 7.1):**\n   - No Governmental Authority of competent jurisdiction shall have enacted any Law or Order prohibiting or enjoining the Purchase or making the transactions illegal.\n   - All Consents of any Governmental Authorities listed in Schedule 6.3(b) must have been obtained.\n\n2. **Conditions Precedent to Obligation of Purchaser (Clause 7.2):**\n   - The representations and warranties of Seller must be accurate.\n   - No Business Material Adverse Effect should have occurred and be continuing.\n   - Certain consents listed in Schedule 7.2(f) must be obtained.\n   - Seller must comply with its obligations under Section 6.6(i).\n   - Purchaser must receive the deliverables required under Section 8.3.\n\n3. **Conditions Precedent to Obligation of Seller and the Other Selling Entities (Clause 7.3):**\n   - The obligation of Seller and the other Selling Entities to consummate the Purchase is subject to satisfaction or waiver of certain conditions by Seller.\n\nThese provisions outline the conditions that must be satisfied or waived for the closing of the transaction to occur.",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated answer accurately reflects the information found in the retrieved contract fragments. All mentioned conditions and clauses are supported by the provided text.",
+      "completeness": 4,
+      "completeness_reason": "The answer covers most of the key points from the retrieved fragments, including the main conditions precedent for both the purchaser and seller. However, it does not explicitly mention the waiver aspect of the conditions, which is a minor detail.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_representations_seller",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "What are the specific contractual provisions regarding Representations and Warranties and Corporate Existence?",
+      "evidence_snippets": [
+        "Each Selling Entity is duly organized, validly existing",
+        "Each Selling Entity has the requisite corporate, limited liability company, partnership"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0177",
+        "chunk_0008",
+        "chunk_0124",
+        "chunk_0194",
+        "chunk_0181",
+        "chunk_0189",
+        "chunk_0349",
+        "chunk_0191"
+      ],
+      "retrieval_ms": 3254.6,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Representations and Warranties and Corporate Existence are as follows:\n\n1. **Representations and Warranties**:\n   - The representations and warranties contained in Article IV (as modified by the Disclosure Schedules) and the express representations and warranties contained in the other Transaction Documents are the only representations and warranties made by Seller with respect to the Seller Group, the Business, the Transferred Assets, and the Transferred Liabilities. No other express, implied, or statutory representation or warranty is made by Seller or any of its Subsidiaries or Affiliates (Clause from [chunk_0177]).\n\n2. **Corporate Existence**:\n   - Each Selling Entity is duly organized, validly existing, and, where applicable, in good standing under the laws of its jurisdiction of organization. Each Selling Entity has the requisite corporate, limited liability company, partnership, or similar power and authority to own, lease, and operate its properties, rights, and assets related to the Business (including the Transferred Assets) and to conduct the Business as it is currently being conducted (Clause 4.1 from [chunk_0124]).\n\nThese clauses outline the scope of representations and warranties provided by the Seller and confirm the corporate existence and authority of the Selling Entities.",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated answer is entirely faithful to the retrieved contract clauses. All information provided in the answer can be directly traced back to the specific chunks of the contract text, with no fabricated or misleading content.",
+      "completeness": 4,
+      "completeness_reason": "The answer covers the main points regarding representations and warranties and corporate existence as outlined in the retrieved contract clauses. However, it does not delve into the details of each sub-clause under Article IV, which could provide a more comprehensive understanding of the contractual provisions.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "credit_representations_no_default",
+      "lang": "en",
+      "tags": [
+        "en",
+        "very_long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "What are the specific contractual provisions regarding Default and Representations and Warranties?",
+      "evidence_snippets": [
+        "no Default or Event of Default has occurred and is continuing",
+        "each of the representations and warranties made by each of the Loan"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0401",
+        "chunk_0366",
+        "chunk_0003",
+        "chunk_0587",
+        "chunk_0626",
+        "chunk_0598",
+        "chunk_0013",
+        "chunk_0223"
+      ],
+      "retrieval_ms": 3839.7,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Default and Representations and Warranties are as follows:\n\n1. **Default**:\n   - No Default or Event of Default shall have occurred and be continuing on the date of any extension of credit or after giving effect to the extensions of credit requested (Clause 5.2(b), chunk_0401).\n\n2. **Representations and Warranties**:\n   - Each of the representations and warranties made by any Loan Party in or pursuant to the Loan Documents must be true and correct in all material respects on and as of the date of any extension of credit (Clause 5.2(a), chunk_0401).\n   - All representations and warranties made in the Loan Documents and any related documents shall survive the execution and delivery of the Agreement (Clause 10.4, chunk_0587).\n   - The Borrower represents and warrants that the entry into the Amendment has been duly authorized by all necessary corporate or other action (Clause 4(b), chunk_0003).\n\nNo additional relevant clauses found.",
+      "faithfulness": 5,
+      "faithfulness_reason": "All the information provided in the AI-generated answer can be traced back to the retrieved contract clauses. There is no fabricated information.",
+      "completeness": 4,
+      "completeness_reason": "The answer covers the key points regarding Default and Representations and Warranties, but it does not mention the specific financial condition representation found in chunk_0366, which could be relevant to the user's query.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "credit_events_of_default",
+      "lang": "en",
+      "tags": [
+        "en",
+        "very_long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "What are the specific contractual provisions regarding Events of Default and payment failure?",
+      "evidence_snippets": [
+        "Reimbursement Obligation when due in accordance with the terms hereof",
+        "shall fail to pay any interest on any Loan or Reimbursement Obligation, or any other"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0507",
+        "chunk_0530",
+        "chunk_0552",
+        "chunk_0131",
+        "chunk_0460",
+        "chunk_0468",
+        "chunk_0590",
+        "chunk_0090"
+      ],
+      "retrieval_ms": 3858.9,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Events of Default and payment failure are outlined in Section 8.1 of the contract. According to clause 8.1(a), an Event of Default occurs if the Borrower fails to pay any principal of any Loan or Reimbursement Obligation when due, or fails to pay any interest on any Loan or Reimbursement Obligation, or any other amount payable under the contract or any other Loan Document, within five days after such interest or other amount becomes due. \n\nAdditionally, if an Event of Default occurs, as specified in the retrieved excerpts, the Commitments may be terminated, and the Loans and all other amounts owing under the Agreement may become immediately due and payable (as mentioned in chunk_0530).\n\nReferences:\n- Section 8.1(a) (chunk_0507)\n- Chunk_0530",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated answer accurately reflects the information found in the retrieved contract fragments, specifically referencing Section 8.1(a) and the consequences of an Event of Default as described in chunk_0530. There is no fabricated information.",
+      "completeness": 4,
+      "completeness_reason": "The answer covers the main points regarding Events of Default and payment failure, including the specific conditions under which an Event of Default occurs and the potential consequences. However, it does not mention the procedural aspects related to the notice of default as described in chunk_0552.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "credit_events_of_default_misrep",
+      "lang": "en",
+      "tags": [
+        "en",
+        "very_long"
+      ],
+      "perspective": "party_a",
+      "e2e_query": "What are the specific contractual provisions regarding Events of Default and misrepresentation?",
+      "evidence_snippets": [
+        "herein or in any other Loan Document or that is contained in any certificate",
+        "shall prove to"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0507",
+        "chunk_0530",
+        "chunk_0552",
+        "chunk_0533",
+        "chunk_0131",
+        "chunk_0460",
+        "chunk_0590",
+        "chunk_0090"
+      ],
+      "retrieval_ms": 3668.6,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Events of Default and misrepresentation are found in Section 8.1 of the contract. According to clause 8.1(b), an Event of Default occurs if \"any representation or warranty made or deemed made by any Loan Party herein or in any other Loan Document or that is contained in any certificate, document or financial or other statement furnished by it at any time under or in connection with this Agreement or any such other Loan Document shall prove to have been inaccurate in any material respect on or as of the date.\" \n\nThis clause indicates that a misrepresentation by any Loan Party that is materially inaccurate can trigger an Event of Default.",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated answer accurately reflects the content found in the retrieved contract clause, specifically Section 8.1(b), regarding Events of Default and misrepresentation. There is no fabricated information.",
+      "completeness": 4,
+      "completeness_reason": "The answer covers the key point about misrepresentation leading to an Event of Default as specified in Section 8.1(b). However, it does not mention other potential Events of Default listed in Section 8.1, which could provide a more comprehensive understanding.",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "credit_investment_restrictions",
+      "lang": "en",
+      "tags": [
+        "en",
+        "very_long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "What are the specific contractual provisions regarding Investments and Consolidated Leverage Ratio?",
+      "evidence_snippets": [
+        "shall be equal to or lower than the Consolidated Leverage Ratio in effect immediately prior",
+        "the Equity Interests received by the Borrower or any of its Subsidiaries"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0054",
+        "chunk_0053",
+        "chunk_0431",
+        "chunk_0480",
+        "chunk_0476",
+        "chunk_0143",
+        "chunk_0080",
+        "chunk_0478"
+      ],
+      "retrieval_ms": 3581.3,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Investments and Consolidated Leverage Ratio are as follows:\n\n1. **Consolidated Leverage Ratio**:\n   - The Consolidated Leverage Ratio is defined as the ratio of (a) Consolidated Total Debt on such day to (b) Annualized Operating Cash Flow determined in respect of the fiscal quarter ending on such day. (Clause from chunk_0054)\n   - The Borrower is not permitted to allow the Consolidated Leverage Ratio determined as of the last day of any fiscal quarter to exceed 5.0 to 1.0. (Clause 7.1(a) from chunk_0431)\n\n2. **Investments**:\n   - The Borrower or any of its Subsidiaries may contribute operating assets to any Non-Recourse Subsidiary under certain conditions, including that the Consolidated Leverage Ratio shall be equal to or lower than the Consolidated Leverage Ratio in effect immediately prior to the contribution. (Clause from chunk_0480)\n   - The Borrower and its Subsidiaries may make Restricted Payments provided that no Default or Event of Default has occurred and the Consolidated Leverage Ratio, after giving pro forma effect to such Restricted Payment, is less than a specified threshold. (Clause from chunk_0476) \n\nThese clauses outline the conditions under which the Borrower can manage its leverage and make investments.",
+      "faithfulness": 5,
+      "faithfulness_reason": "The AI-generated answer accurately reflects the information found in the retrieved contract clauses. All details mentioned in the response can be traced back to the provided contract fragments, with no fabricated information.",
+      "completeness": 4,
+      "completeness_reason": "The answer covers the main points regarding the Consolidated Leverage Ratio and Investments as outlined in the retrieved contract clauses. However, it could have included more specific details from the clauses to enhance completeness.",
+      "judge_status": "ok"
+    }
+  ]
+}

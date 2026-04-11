@@ -1,0 +1,436 @@
+========================================================================
+文件: Exh 10.1 - Credit Agreement.pdf
+总字符数: 422,532
+========================================================================
+
+── 前 3000 字符 ──────────────────────────────────────────────
+EX-10.1 2 exh101-creditagreement.htm EXHIBIT
+Exhibit 10.1
+AMENDMENT No. 3, dated as of June 27, 2013 (this “Amendment”), to the
+Amended and Restated Credit Agreement, dated as of March 18, 1999 and amended and
+restated on April 11, 2012 (as amended by Amendment No. 1, dated as of March 22, 2013,
+Amendment No. 2, dated as of April 22, 2013 and the Term F Incremental Activation
+Notice (as defined in Exhibit A), and as the same may be further amended, restated,
+modified and supplemented from time to time, the “Credit Agreement”) by and among
+CHARTER COMMUNICATIONS OPERATING, LLC, a Delaware limited liability
+company (“Borrower”), CCO HOLDINGS, LLC, a Delaware limited liability company
+(“Holdings”), the LENDERS party thereto and BANK OF AMERICA, N.A., as
+administrative agent (the “Administrative Agent”).
+WHEREAS, the Borrower has requested, and the Lenders party hereto,
+which constitute the Required Lenders, have agreed, upon the terms and subject to the
+conditions set forth herein, that the Credit Agreement be amended as provided herein;
+NOW, THEREFORE, in consideration of the promises and mutual
+agreements herein contained, the Borrower, Holdings, the Lenders party hereto, and the
+Administrative Agent hereby agree as follows:
+SECTION 1.    Defined Terms. Capitalized terms used but not defined
+herein shall have the meanings assigned to such terms in the Credit Agreement.
+SECTION 2.    Amendments to the Credit Agreement. The Credit Agreement
+is, effective as of the Amendment No. 3 Effective Date (as defined in Exhibit A), hereby
+amended to delete the stricken text (indicated textually in the same manner as the following
+example: stricken text) and to add the double-underlined text (indicated textually in the
+same manner as the following example: double-underlined text) as set forth in the pages of
+the Credit Agreement attached as Exhibit A hereto.
+SECTION 3.    Effectiveness. This Amendment shall become effective on
+the date (the “Amendment No. 3 Effective Date”) that the Administrative Agent shall have
+received executed signature pages hereto from Holdings, the Borrower and Lenders
+constituting the Required Lenders under the Credit Agreement;
+SECTION 4.    Representations and Warranties. In order to induce the
+Lenders and the Administrative Agent to enter into this Amendment, the Borrower
+represents and warrants to each of the Lenders and the Administrative Agent that, after
+giving effect to this Amendment, and both before and after giving effect to the transactions
+contemplated by this Amendment:
+(a)    no Default or Event of Default has occurred and is continuing;
+
+(b)    the entry into this Amendment by Holdings and the Borrower has been
+duly authorized by all necessary corporate or other action of each such entity; and
+(c)    each of the representations and warranties made by each of the Loan
+Parties in or pursuant to the Loan Documents is true and correct in all material
+respects on and as of the date hereof as if made on the date hereof (or, i
+
+── 最后 1000 字符 ───────────────────────────────────────────
+NT AND FOR ANY COUNTERCLAIM THEREIN.
+10.17.
+USA Patriot Act. Each Lender hereby notifies the Borrower that
+pursuant to the requirements of the USA Patriot Act (Title III of Pub. L. 107-56 (signed into law
+October 26, 2001)) (the “Patriot Act”), it is required to obtain, verify and record information that
+identifies the Borrower, which information includes the name and address of the Borrower and
+other information that will allow such Lender to identify the Borrower in accordance with the
+Patriot Act.
+-103-
+IN WITNESS WHEREOF, the parties hereto have caused this Agreement to be
+duly executed and delivered by their proper and duly authorized officers as of the day and year first
+above written.
+CCO HOLDINGS, LLC
+By:
+Name:
+Title:
+CHARTER COMMUNICATIONS
+OPERATING, LLC
+
+By:
+Name:
+Title:
+[Signature Page to Amended and Restated Credit Agreement]
+BANK OF AMERICA, N.A.,
+as Administrative Agent and as an Issuing
+Lender
+By:
+Name:
+Title:
+
+ 
+[Signature Page to Amended and Restated Credit Agreement]
+
+
+── 章节标题（共 351 条）────────────────────────────────
+    1. SECTION 1.    Defined Terms. Capitalized terms used but not defined
+    2. SECTION 2.    Amendments to the Credit Agreement. The Credit Agreement
+    3. SECTION 3.    Effectiveness. This Amendment shall become effective on
+    4. SECTION 4.    Representations and Warranties. In order to induce the
+    5. SECTION 5.    Reference to and Effect on the Loan Documents. On and
+    6. SECTION 6.    Applicable Law; Waiver of Jury Trial.
+    7. SECTION 7.    Headings. The Section headings used herein are for
+    8. SECTION 8.    Counterparts. This Amendment may be executed in any
+    9. SECTION 1
+   10. SECTION 2
+   11. SECTION 3
+   12. SECTION 4
+   13. SECTION 5
+   14. SECTION 6
+   15. SECTION 7
+   16. SECTION 8
+   17. SECTION 9
+   18. SECTION 10 MISCELLANEOUS
+   19. satisfaction of the conditions precedent set forth in Section 5.1 hereof; and
+   20. SECTION 1    DEFINITIONS
+   21. Section 1.1 shall have the respective meanings set forth in this Section 1.1.
+   22. “Acceptable Price”: as defined in Section 2.8(b)(iii).
+   23. “Acceptance Date”: as defined in Section 2.8(b)(iii).
+   24. “Agent Parties”: as defined in Section 10.2(c).
+   25. “Allocated Proceeds”: as defined in Section 2.9(a).
+   26. pursuant to Section 7.5(f) or (g), equal to Consolidated Operating Cash Flow for the most recent
+   27. “Applicable Price”: as defined in Section 2.8(b).
+   28. “Approved Fund”: as defined in Section 10.6.
+   29. fiscal quarter as to which financial statements have been delivered pursuant to Section 6.1.
+   30. Section 7.5) that yields gross cash proceeds to the Borrower or any of its Subsidiaries in excess of
+   31. “Assignee”: as defined in Section 10.6(b)(i).
+   32. than the representation set forth in Section 4.16 and (c) the aggregate amount of cash and Cash
+   33. pursuant to the Loan Documents, Liens permitted by Section 7.3(g), (o) or (s) or inchoate Liens
+   34. permitted by Section 7.3(a)).
+   35. Revolving Commitment pursuant to Section 2.6(a), the aggregate principal amount of Swingline
+   36. “Benefited Lender”: as defined in Section 10.7(a).
+   37. “Borrower Materials”: as defined in Section 6.1.
+   38. “Budget”: as defined in Section 6.2(c).
+   39. “Business”: as defined in Section 4.17(b).
+   40. “Change of Control”: as defined in Section 8.1(k).
+   41. purchased (other than assets described in Section 7.14(b)(ii)(z)) shall promptly following such
+   42. common control with any Loan Party within the meaning of Section 4001 of ERISA or is part of a
+   43. group that includes any Loan Party and that is treated as a single employer under Section 414 of the
+   44. greater amount pursuant to Section 2.16, 2.17, 2.18 or 10.5 than the designating Lender would have
+   45. constituting L/C Obligations and (y) Indebtedness incurred pursuant to Section 7.2(g)) of the
+   46. Indebtedness incurred pursuant to Section 7.2(g)) of the Borrower and its Subsidiaries at such date,
+   47. “Debt Repayment”: as defined in Section 7.6(c).
+   48. “Default”: any of the events specified in Section 8.1, whether or not any
+   49. “Defaulting Lender”: subject to Section 2.21(b), any Revolving Lender that, as
+   50. Subsidiaries in connection with a Disposition pursuant to Section 7.5(f) that is so designated as
+   51. paid, redeemed or otherwise retired or sold or otherwise disposed of in compliance with Section 7.5.
+   52. “Disposition Date”: as defined in Section 7.5(f).
+   53. “Event of Default”: any of the events specified in Section 8.1, provided that any
+   54. “Exchange Excess Amount”: as defined in Section 7.5(g).
+   55. Section 7.2 to the extent that the documentation governing the Indebtedness referred to in said
+   56. “Existing Class”: as defined in Section 2.1(g)
+   57. “Extended Revolving Commitment”: as defined in Section 2.1(h).
+   58. “Extended Term Loans”: as defined in Section 2.1(g).
+   59. “Extending Term Lender”: as defined in Section 2.1(g).
+   60. “Extension Election”: as defined in Section 2.1(g).
+   61. “Extension Request”: as defined in Section 2.1(g).
+   62. calculated in the manner contemplated by Section 1.2(f) as if the Investment pursuant to which such
+   63. recent fiscal quarter for which financial statements have been delivered pursuant to Section 6.1(a) or
+   64. compliance with Section 7.1.
+   65. “Funding Office”: the office of the Administrative Agent specified in Section 10.2
+   66. from time to time, except that for purposes of Section 7.1, GAAP shall be determined on the basis
+   67. audited financial statements delivered pursuant to Section 6.1 prior to the Original Restatement
+   68. Section 6.1 without qualification.
+   69. Section 8.1 applies at such time, does not account for more than 5% of (i) Total Assets at such date
+   70. the most recent consolidated balance sheet delivered pursuant to Section 6.1(a) or (b).
+   71. the applicable requirements of Section 2.1(f), (g), (h) or (i).
+   72. reliance on the proviso to Section 2.01(f)(iii). For the avoidance of doubt, the Term A-1 Loans
+   73. Effective Date pursuant to Section 2.1(f) including the Term DF Loans.
+   74. is insolvent within the meaning of Section 4245 of ERISA.
+   75. “Investments”: as defined in Section 7.7.
+   76. “Lender Participation Notice”: as defined in Section 2.8(b)(iii).
+   77. “Letters of Credit”: as defined in Section 3.1(a).
+   78. forth in Section 5.1 has been satisfied.
+   79. “Non-Excluded Taxes”: as defined in Section 2.17(a).
+   80. Non-Recourse Subsidiary) except to the extent permitted under Section 7.7(g), (h) or (l); (vi) the
+   81. pursuant to Section 7.7(f). It is understood that Non-Recourse Subsidiaries shall be disregarded for
+   82. “Non-U.S. Lender”: as defined in Section 2.17(d).
+   83. “Offered Loans”: as defined in Section 2.8(b)(iii)
+   84. “Offered Prepayment Option Notice”: as defined in Section 2.8(b)(v).
+   85. “Offered Range”: as defined in Section 2.8(b)(ii).
+   86. “Offered Voluntary Prepayment”: as defined in Section 2.8(b)(i).
+   87. “Offered Voluntary Prepayment Notice”: as defined in Section 2.8(b)(v).
+   88. “Participant”: as defined in Section 10.6(c)(i).
+   89. “Permitted Line of Business”: as defined in Section 7.14(a).
+   90. were terminated at such time, would under Section 4069 of ERISA be deemed to be) an “employer”
+   91. as defined in Section 3(5) of ERISA.
+   92. “Platform”: as defined in Section 6.1.
+   93. “Properties”: as defined in Section 4.17(a).
+   94. “Proposed Offered Prepayment Amount”: as defined in Section 2.8(b)(ii).
+   95. the type described in Section 7.14(a), (iii) payment of management fees (to the extent the Borrower
+   96. would be permitted to pay such fees under Section 7.8(c)), (iv) payment of amounts that would be
+   97. permitted to be paid by way of a Restricted Payment under Section 7.6(g) (including the expenses
+   98. “Qualifying Lenders”: as defined in Section 2.8(b)(iv).
+   99. “Qualifying Loans”: as defined in Section 2.8(b)(iv).
+  100. “Refunded Swingline Loans”: as defined in Section 2.5(b).
+  101. “Register”: as defined in Section 10.6(b)(iv).
+  102. relevant Issuing Lender pursuant to Section 3.5 for amounts drawn under Letters of Credit.
+  103. pursuant to Section 2.9(a), as such amount may be reduced from time to time by application of such
+  104. which an Event of Default under Section 8.1(a) or 8.1(g) occurs.
+  105. plan is in reorganization within the meaning of Section 4241 of ERISA.
+  106. 2 Effective Date pursuant to Section 2.1(i).
+  107. “Reportable Event”: any of the events set forth in Section 4043(c) of ERISA, other
+  108. “Restricted Payments”: as defined in Section 7.6.
+  109. “Revolving Loans”: as defined in Section 2.1(e).
+  110. Loans, as contemplated by Section 2.21, (iii) on each date on which Extended Revolving
+  111. assignment amount specified in Section 10.6(b)(ii)(A) for Assignees other than Lenders, affiliates of
+  112. pursuant to Section 7.2(e).
+  113. “Specified Revolving Maturity Date”: as defined in Section 3.4(d).
+  114. Swingline Loans pursuant to Section 2.4 in an aggregate principal amount at any one time
+  115. “Swingline Loans”: as defined in Section 2.4.
+  116. “Swingline Participation Amount”: as defined in Section 2.5(c).
+  117. “Term A-1 Loan”: as defined in Section 2.1(a).
+  118. “Test Date”: as defined in Section 7.7(j).
+  119. Borrower delivered pursuant to Section 6.1(a) or (b).
+  120. Holdings, the Borrower and its Subsidiaries not defined in Section 1.1 and accounting terms partly
+  121. defined in Section 1.1, to the extent not defined, shall have the respective meanings given to them
+  122. Section 1.2(ef), “Material Acquisition” means any acquisition of property or series of related
+  123. of Section 7 that no Default or Event of Default results from a particular transaction, pro forma
+  124. compliance with Section 7.1 shall be required.
+  125. For purposes of determining compliance with any covenant in Section 7
+  126. Disposition, all utilization of the “baskets” contained in Section 7 from and after the Original
+  127. SECTION 2    AMOUNT AND TERMS OF COMMITMENTS
+  128. have been delivered pursuant to Section 6.1(a) or (b) prior to the incurrence of such incremental
+  129. and to provide for other terms consistent with this Section 2.1(g). In order to establish a Series of
+  130. Activation Notice in accordance with the requirements set forth above in this Section 2.1(g) and to
+  131. Section 2.1(h), an “Extended Revolving Commitment”, which for the avoidance of doubt, shall also
+  132. long as the Borrower would be in pro forma compliance with Section 7.1, the amount of any
+  133. required by Section 3.5 may be given not later than 1:00 P.M. New York City time, on the date of
+  134. Revolving Commitments that are ABR Loans in other amounts pursuant to Section 2.5. Upon
+  135. respect of ABR Loans under the Revolving Facility to finance payments required by Section 3.5),
+  136. payments required by Section 3.5) on the relevant Borrowing Date, the Borrower shall be deemed
+  137. to have provided notice to the Swingline Lender in accordance with Section 2.5 requesting a
+  138. required by Section 3.5), to the Borrower by the Administrative Agent crediting the account of the
+  139. resulting from optional and mandatory prepayments in accordance with Section 2.8 and Section 2.9,
+  140. reductions resulting from optional and mandatory prepayments in accordance with Section 2.8 and
+  141. Section 2.9 of this Agreement or the Existing Credit Agreement, the aggregate principal amount of
+  142. optional and mandatory prepayments in accordance with Section 2.8 and Section 2.9, the aggregate
+  143. converted (and subject to the limitations contained in Section 2.1(g)).
+  144. were established (and subject to the limitations contained in Section 2.1(i))..
+  145. Lender hereby waives any claim pursuant to Section 2.18 in connection with such repayment.
+  146. Lender's actual or potential Fronting Exposure (after giving effect to Section 2.21(a)(iii)) with
+  147. pursuant to Section 2.5(b), one of the events described in Section 8.1(g) shall have occurred and be
+  148. Lender in its sole discretion, Revolving Loans may not be made as contemplated by Section 2.5(b),
+  149. the notice referred to in Section 2.5(b), purchase for cash an undivided participating interest in the
+  150. Section 2.5(b) and to purchase participating interests pursuant to Section 2.5(c) shall be absolute
+  151. Section 5; (iii) any adverse change in the condition (financial or otherwise) of the Borrower; (iv)
+  152. any amounts owing pursuant to Section 2.18. Upon receipt of any such notice, the Administrative
+  153. this Section 2.8(a) shall be in an aggregate principal amount of $5,000,000 or a whole multiple of
+  154. Loans of any Class pursuant to this Section 2.8(a) shall be applied to the Loans of such Class of
+  155. Notwithstanding anything to the contrary in Section 2.8(a), the Borrower
+  156. the procedures described in this Section 2.8(b); provided that (A) the aggregate principal amount of
+  157. each of the conditions to such Offered Voluntary Prepayment contained in this Section 2.8(b) has
+  158. if the Borrower has selected a single percentage pursuant to Section 2.8(b)(ii) for the Offered
+  159. Qualifying Loans), without premium or penalty (and not subject to Section 2.18), upon irrevocable
+  160. in accordance with Section 2.8(b)(iii) above) established by the Administrative Agent in
+  161. agrees that Administrative Agent may perform any and all of its duties under this Section 2.8(b) by
+  162. any Offered Voluntary Prepayment provided for in this Section 2.8 as well as activities of the
+  163. applied toward the prepayment of the Term Loans in the manner specified in Section 2.9(c);
+  164. Allocated Proceeds may be applied to prepay Term Loans in accordance with Section 2.9(c) and
+  165. manner specified in Section 2.9(c).
+  166. of Term Loans pursuant to Section 2.9(a) shall be made on a pro rata basis to each Class of Term
+  167. any amounts required to be applied to a prepayment of Term Loans pursuant to Section 2.9(b) shall
+  168. such Class. Each prepayment of the Term Loans under this Section 2.9 shall be accompanied by
+  169. Period” set forth in Section 1.1, of the length of the next Interest Period to be applicable to such
+  170. Agent in determining any interest rate pursuant to Section 2.12(a).
+  171. Except for payments pursuant to Section 2.8(b) (which shall reduce only
+  172. Loan to be made by such Lender as provided in the foregoing provisions of this Section 2, and such
+  173. the applicable Loan set forth in Section 5.2 are not satisfied or waived in accordance with the terms
+  174. in respect thereof (except for Non-Excluded Taxes covered by Section 2.17 and changes in
+  175. Section 7701(a)(30) of the Code (a “Non-U.S. Lender”) shall deliver to the Borrower and the
+  176. federal withholding tax under Section 871(h) or 881(c) of the Code with respect to payments of
+  177. Lender (or a Transferee) to deliver any form pursuant to this Section 2.17(d) as a result of a change
+  178. Transferee's) Loans shall not constitute a failure to comply with this Section 2.17(d) and
+  179. accordingly the indemnities to which such Person is entitled pursuant to this Section 2.17 shall not
+  180. sentence does not apply is unable to deliver any form pursuant to this Section 2.17(d), the sole
+  181. described in Section 2.17(a) hereof for any Non-Excluded Taxes shall not be available to such
+  182. additional amounts payable pursuant to Section 2.17(a) shall use reasonable efforts (consistent with
+  183. occurrence of any event giving rise to the operation of Section 2.16 or 2.17(a) with respect to such
+  184. pursuant to Section 2.16 or 2.17(a).
+  185. any Lender that (a) requests reimbursement for amounts owing pursuant to Section 2.16 or 2.17(a)
+  186. any such replacement, such Lender shall have taken no action under Section 2.19 which has
+  187. eliminated the continued need for payment of amounts owing pursuant to Section 2.16 or 2.17(a),
+  188. such replaced Lender under Section 2.18 if any Eurodollar Loan owing to such replaced Lender
+  189. shall pay all additional amounts (if any) required pursuant to Section 2.16 or 2.17(a), as the case
+  190. terms of Section 10.1, the Borrower shall be permitted to replace such Non-Consenting Lender with
+  191. shall be liable to the Non-Consenting Lender under Section 2.18 if any Eurodollar Loan owing to
+  192. accordance with the provisions of Section 10.6(c) (provided that the Borrower shall be obligated to
+  193. (if any) required pursuant to Section 2.16, 2.17 or 2.18, as the case may be, (vii) the Borrower
+  194. event any Non-Consenting Lender fails to execute the agreements required under Section 10.6 in
+  195. connection with an assignment pursuant to this Section 2.20, the Borrower may, upon two Business
+  196. Lender (whether voluntary or mandatory, at maturity, pursuant to Section 8.2 or otherwise,
+  197. Lender pursuant to Section 10.7), shall be applied at such time or times as may be
+  198. when the conditions set forth in Section 5.2 were satisfied or waived, such payment shall be
+  199. to post Cash Collateral pursuant to this Section 2.21(a)(i) shall be deemed paid to and
+  200. any commitment fee pursuant to Section 2.6(a) for any period during which that Lender is a
+  201. provided in Section 3.3(a).
+  202. accordance with their Revolving Percentages (without giving effect to Section 2.21(a)(iii) but
+  203. Swingline Loans, as applicable, and to make payments pursuant to Section 9.7 are several and not
+  204. payment under Section 9.7 on any date required hereunder shall not relieve any other Lender of its
+  205. under Section 9.7.
+  206. SECTION 3    LETTERS OF CREDIT
+  207. reliance on the agreements of the other Revolving Lenders set forth in Section 3.4(a), agrees to
+  208. Existing Letter of Credit shall be deemed to be issued pursuant to this Section 3.1(a) on the
+  209. to Section 2.21(a)(iii)) with respect to the Defaulting Lender arising from either the Letter
+  210. this Section 3 shall be payable, to the maximum extent permitted by applicable Law, to the other
+  211. Percentages allocable to such Letter of Credit pursuant to Section 2.21(a)(iii), with the balance of
+  212. contemplated by this Section 3.4(a), shall be absolute and unconditional and shall not be affected by
+  213. Lender pursuant to Section 3.4(a) in respect of any unreimbursed portion of any payment made by
+  214. pursuant to Section 3.4(a) is not made available to the relevant Issuing Lender by such L/C
+  215. such payment in accordance with Section 3.4(a), such Issuing Lender receives any payment through
+  216. (i) until the second Business Day following the date of the applicable drawing, Section 2.12(b) and
+  217. (ii) thereafter, Section 2.12(c).
+  218. Obligations Absolute. The Borrower's obligations under this Section 3
+  219. responsible for, and the Borrower's Reimbursement Obligations under Section 3.5 shall not be
+  220. amount sufficient to cover all Fronting Exposure (after giving effect to Section 2.21(a)(iii) and any
+  221. assignee following compliance with Section 10.6(b)) or (ii) the Administrative Agent's good faith
+  222. related to any Letter of Credit is inconsistent with the provisions of this Section 3, the provisions of
+  223. this Section 3 shall apply.
+  224. SECTION 4    REPRESENTATIONS AND WARRANTIES
+  225. it becomes a Loan Party pursuant to Section 6.9, is duly organized, validly existing and in good
+  226. Section 7.3(g) or (o)).
+  227. any Lien except Liens not prohibited by Section 7.3.
+  228. of this Section 4.9, nor does the Borrower know of any valid basis for any such claim. The use of all
+  229. sentence of this Section 4.9.
+  230. deficiency” (within the meaning of Section 412 of the Code or Section 302 of ERISA) has occurred
+  231. pursuant to Section 6.2(b), (a) Schedule 4.15 (as modified by such Compliance Certificate) sets
+  232. Stock (constituting securities within the meaning of Section 8-102(a)(15) of the New York UCC)
+  233. with respect to Liens not prohibited by Section 7.3.
+  234. are limited liability companies or partnerships constitutes a security under Section 8-103 of the New
+  235. SECTION 5    CONDITIONS PRECEDENT
+  236. that the conditions contained in this Section 5.2 have been satisfied.
+  237. SECTION 6    AFFIRMATIVE COVENANTS
+  238. the Equity Interests of the Borrower, the obligations set forth in Section 6.1(a) and (b) may be
+  239. statements of CCI are provided in lieu of financial statements of the Borrower under Section 6.1(a),
+  240. Documents required to be delivered pursuant to Section 6.1(a) or (b) may be
+  241. treated as set forth in Section 10.15); (y) all Borrower Materials marked “PUBLIC” are permitted to
+  242. Section 6.1, (i) a certificate of a Responsible Officer stating that, to the best of each such
+  243. normal conduct of its business, except, in each case, as otherwise permitted by Section 7.4 and
+  244. Section 1.6011-4), and promptly thereafter, the Borrower shall deliver a duly completed
+  245. Each notice pursuant to this Section 6.7 shall be accompanied by a statement of a Responsible
+  246. prohibited by Section 7.3, in (i) the Equity Interests of such new Subsidiary and all other property
+  247. any, representing such Equity Interests (constituting securities within the meaning of Section 8-
+  248. Lenders a perfected first priority security interest, subject to Liens not prohibited by Section 7.3, in
+  249. SECTION 7    NEGATIVE COVENANTS
+  250. Subsidiary resulting from Investments made pursuant to Section 7.7(h) in the form of
+  251. limitation, Capital Lease Obligations) secured by Liens permitted by Section 7.3(f)(i) in an
+  252. Investment permitted by Section 7.7,7.7 (and any guarantee by any Loan Party thereof), so
+  253. Section 7.13 (disregarding any exceptions contained in Section 7.13) and setting forth the
+  254. permitted by Section 7.10;
+  255. incurred pursuant to Section 7.2(d) to finance the acquisition of fixed or capital assets,
+  256. Acquired Subsidiary permitted under Section 7.2(f) so long as such Liens do not at any time
+  257. Section 7.2(k) or (m), subject to the Senior Note Intercreditor Agreement;
+  258. pursuant to Section 7.2(h) by any Lender or any Affiliate of any Lender;
+  259. Default under Section 8.1(i);
+  260. transaction permitted by Section 7.10;
+  261. pursuant to Section 7.2(h);
+  262. Guarantor incurred pursuant to Section 7.2(e), which Liens shall be on terms and conditions
+  263. Indebtedness of Holdings incurred pursuant to Section 7.2(e) or (m), which Liens shall be
+  264. Disposition permitted by Section 7.5(f);
+  265. Dispositions expressly permitted by Section 7.4;
+  266. constitute usage of availability in respect of Dispositions pursuant to this Section 7.5(f)),
+  267. Amount attributable to all other assets previously disposed of pursuant to this Section 7.5(f)
+  268. the Term Loans to the extent required by Section 2.9(a);
+  269. the Borrower (it being understood that a release in accordance with Section 10.14 of any
+  270. Dispositions of Investments permitted by Section 7.7(h); provided that
+  271. It is understood that this Section 7.5 does not apply to the sale or issuance of the Equity Interests of
+  272. and is continuing or would result therefrom, and without duplication of Section 7.7(k), the
+  273. company of the Borrower) is the common parent, without duplication of Section 7.7(k), the
+  274. under this Section 7.6(e) shall not exceed $100,000,000 during the term of this Agreement;
+  275. Borrower pursuant to Section 7.7; provided that (x) the assets or Equity Interests acquired
+  276. Section 7.7 to be an Investment by the Borrower;
+  277. been delivered pursuant to Section 6.01(a) or (b), as applicable, after giving pro forma
+  278. Guarantee Obligations permitted by Section 7.2;
+  279. Section 7.5(f), (ii) no Default or Event of Default shall have occurred and be continuing or
+  280. make a Restricted Payment under Section 7.6(h) or an Investment under Section 7.7 (l) or
+  281. be prohibited by Section 7.6 if the Borrower or any Subsidiary (directly or indirectly) used
+  282. Section 7.6(c), and (iii) on the date such Debt Repayment is consummated, no Default or
+  283. Borrower in lieu of Restricted Payments permitted by Section 7.6(d);
+  284. with Section 7.5(f) within five Business Days of such contribution or, if such Disposition is
+  285. contribution is reversed or such Wholly Owned Subsidiary complies with Section 6.9 and
+  286. proceeds thereof, including pursuant to Section 7.7(e)(ii) or (iv).
+  287. relevant conditions of Section 7.2(e)will be materially adverse to the Lenders if, after giving effect
+  288. extend the due date or reduce (or increase to the amount permitted by Section 7.8(c)) the amount of
+  289. apply to (i) transactions expressly permitted by Section 7.6, Section 7.7(h) or Section 7.8(c), (ii)
+  290. Section 7.7(f) or (h) so long as such Indebtedness is permitted under Section 7.2(f) or (l) and such
+  291. Indebtedness secured by Liens described in Section 7.3(o) so long as such restrictions are no more
+  292. Date or in any other agreement governing Indebtedness of Holdings described in Section 7.3(e), (i)
+  293. permitted under Section 7.5 solely to the extent that such restriction applies solely to the assets to be
+  294. governing Indebtedness permitted under Section 7.2(e), (i), (l) or (n) or any other agreement
+  295. secured by Liens described in Section 7.3(q)) so long as either (x) such restrictions are no more
+  296. pursuant to Section 7.7(f) or (h) so long as such Indebtedness is permitted under Section 7.2(f) or (l)
+  297. agreement governing Indebtedness secured by Liens described in Section 7.3(o) so long as such
+  298. transaction permitted under Section 7.5 to the extent that such restriction applies solely to such
+  299. permitted under Section 7.2(d) to the extent prohibiting transfers of the assets financed with such
+  300. Loan Documents, Indebtedness permitted to be incurred by it under Section 7.2 and other
+  301. under Section 7.7(h)(ii).
+  302. under Section 7.2(e) or (k) and other customary obligations incidental to its existence.
+  303. SECTION 8    EVENTS OF DEFAULT
+  304. agreement contained in clause (i) or (ii) of Section 6.4(a) (with respect to Holdings and the
+  305. Borrower only), Section 6.7(a) or Section 7 of this Agreement or Sections 6.4 and 6.5(b) of
+  306. (i) any “accumulated funding deficiency” (as defined in Section 302 of
+  307. than in connection with releases in accordance with Section 10.14) or any Loan Party or
+  308. are used in Section 13(d) and 14(d) of the Securities Exchange Act of 1934, as amended),
+  309. Borrower shall at such time comply with Section 3.8. Except as expressly provided above in this
+  310. shall be deemed to occur pursuant to Section 8.1(e) or 8.1(f), and no DHC Default shall be deemed
+  311. provisions contained in Section 7 of the Senior Note Intercreditor Agreement, or (b) any cross-
+  312. manner contemplated by Section 11.04 of the CCO Senior Note Indenture or (y) substantially
+  313. of the Borrower delivered pursuant to Section 6.1(a) or (b) shall exceed 5% of the gross revenues of
+  314. Section 8.1 (or after the Loans have automatically become immediately due and payable and the
+  315. proviso to Section 8.1), any amounts received on account of the Obligations shall be applied by the
+  316. Administrative Agent and amounts payable under Section 2) payable to the Administrative
+  317. Subject to Section 3.8, amounts used to Cash Collateralize the aggregate undrawn
+  318. SECTION 9    THE AGENTS
+  319. appointed by the Administrative Agent pursuant to Section 9.2 for purposes of holding or enforcing
+  320. Administrative Agent), shall be entitled to the benefits of all provisions of this Section 9 and
+  321. Section 10 (including Section 9.7, as though such co-agents, sub-agents and attorneys-in-fact were
+  322. faith shall be necessary, under the circumstances as provided in Section 10.1 and Section 8) or (ii) in
+  323. the satisfaction of any condition set forth in Section 5 or elsewhere herein, other than to confirm
+  324. the Lenders, which successor agent shall (unless an Event of Default under Section 8(a) or Section
+  325. Agent's resignation as Administrative Agent, the provisions of this Section 9 shall inure to its
+  326. under the circumstances described in Section 9.15 of the Guarantee and Collateral Agreement.
+  327. Section 9 to the contrary, the Administrative Agent shall not be required to verify the payment of, or
+  328. provisions of this Section 10.1. The Required Lenders and each Loan Party party to the relevant
+  329. rights under this Section 10.1 or reduce any percentage specified in the definition of Required
+  330. Loans, respectively; (iv) amend, modify or waive any provision of Section 9 without the written
+  331. consent of the Administrative Agent; (v) amend, modify or waive any provision of Section 2.4 or
+  332. provision of Section 3 without the written consent of each affected Issuing Lender. Any such waiver
+  333. thereon. It is understood that, with respect to any voting required by this Section 10.1, all members
+  334. Issuing Lender pursuant to Section 2 or Section 3 if such Lender or Issuing Lender, as applicable,
+  335. might have by statute or otherwise against any Indemnitee. All amounts due under this Section 10.5
+  336. Borrower pursuant to this Section 10.5 shall be submitted to Eloise E. Schmitz (Telephone No.
+  337. notice to the Administrative Agent. The agreements in this Section 10.5 shall survive repayment of
+  338. Section 8.1(a) or (g) has occurred and is continuing, any other Person;
+  339. Holdings or any of its Subsidiaries shall be subject to the requirements of Section 10.6(g);
+  340. of the Borrower shall be required if an Event of Default under Section 8.1(a) or (g) has
+  341. For the purposes of this Section 10.6, “Approved Fund” means any Person (other
+  342. Lender of rights or obligations under this Agreement that does not comply with this Section 10.6
+  343. affected thereby pursuant to the proviso to the second sentence of Section 10.1 and (2) directly
+  344. Section 10.7(b) as though it were a Lender, provided such Participant shall be subject to Section
+  345. entitled to the benefits of Section 2.17 unless such Participant complies with Section 2.17(d).
+  346. off, pursuant to events or proceedings of the nature referred to in Section 8(e), or otherwise), in a
+  347. its address set forth in Section 10.2 or at such other address of which the Administrative
+  348. to in accordance with Section 10.1 or (ii) under the circumstances described in paragraph (b) below.
+  349. contractual counterparty agrees to be bound by the provisions of this Section 10.15), (k) to a Person
+  350. this Section 10.15), or (l) to a Person that is a trustee, collateral manager, servicer, noteholder or
+  351. the provisions of this Section 10.15).

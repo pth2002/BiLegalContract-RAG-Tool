@@ -1,0 +1,132 @@
+{
+  "run_ts": "20260411_134354",
+  "aggregate": {
+    "total_cases": 3,
+    "scored_cases": 3,
+    "parse_errors": 0,
+    "other_errors": 0,
+    "macro_faithfulness": 1.667,
+    "macro_completeness": 2.0,
+    "by_group": {
+      "zh": {
+        "count": 1,
+        "faithfulness_avg": 1.0,
+        "completeness_avg": 1.0
+      },
+      "bilingual": {
+        "count": 1,
+        "faithfulness_avg": 2.0,
+        "completeness_avg": 3.0
+      },
+      "en": {
+        "count": 1,
+        "faithfulness_avg": 2.0,
+        "completeness_avg": 2.0
+      }
+    },
+    "retrieval_hit_cases": 2,
+    "retrieval_miss_cases": 1,
+    "hit_faithfulness_avg": 2.0,
+    "hit_completeness_avg": 2.5,
+    "miss_faithfulness_avg": 1.0,
+    "miss_completeness_avg": 1.0
+  },
+  "results": [
+    {
+      "case_id": "td_custody_fee_mgmt",
+      "lang": "zh",
+      "tags": [
+        "zh",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于基金费用和管理费的具体条款内容。",
+      "evidence_snippets": [
+        "基金管理人的基金管理费按基金资产净值的1.50%年费率计提",
+        "由基金托管人于次月前5个工作日内从基金财产中一次性支付给基金管理人"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0061",
+        "chunk_0060",
+        "chunk_0062",
+        "chunk_0064",
+        "chunk_0009",
+        "chunk_0065",
+        "chunk_0025",
+        "chunk_0035"
+      ],
+      "retrieval_ms": 5549.1,
+      "strict_hit5": 0.0,
+      "generated_answer": "未找到相关条款。",
+      "faithfulness": 1,
+      "faithfulness_reason": "AI生成的回答与合同条款不符，声称未找到相关条款，而实际上合同中明确列出了基金管理费的条款。",
+      "completeness": 1,
+      "completeness_reason": "回答完全没有覆盖参考证据中的任何关键信息，遗漏了所有关于基金管理费的具体条款内容。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "gsk_payment_terms",
+      "lang": "bilingual",
+      "tags": [
+        "bilingual",
+        "medium"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "请说明本合同中关于付款条件和GSK付账日的具体条款内容。",
+      "evidence_snippets": [
+        "Payment will be arranged on the first GSK Payment Day after 60 days",
+        "所有发票上必须列明正确的采购订单号"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0016",
+        "chunk_0017",
+        "chunk_0035",
+        "chunk_0053",
+        "chunk_0023",
+        "chunk_0008",
+        "chunk_0010",
+        "chunk_0026"
+      ],
+      "retrieval_ms": 1149.1,
+      "strict_hit5": 1.0,
+      "generated_answer": "根据检索到的合同条款，关于付款条件和GSK付账日的具体条款内容如下：\n\n- **价格和付款条款**：价格在合同期内固定不变，已包括包装、运输、保险等所有相关费用，除非双方另有书面约定。任何价格上涨必须经葛兰素史克事先书面同意。（条款5.2）\n\n- **GSK付账日**：除非合同中另有约定，GSK付账日为根据葛兰素史克财务制度确定的每月可以向供应商进行支付的日期。付款将在葛兰素史克财务部门收到正确发票（如合同无特别约定，该等发票应当为增值税专用发票，发票金额必须准确并且标注订单号码以及葛兰素史克联系人）满60日后的第一个GSK付账日安排。（条款5.2）\n\n- **发票要求**：所有发票上必须列明正确的采购订单号。对于无订单号的发票，葛兰素史克有权拒绝且不承担任何责任。（条款5.3）\n\n- **发票寄送地址**：为确保正常付款，所有的发票应寄往采购订单上注明的地址。（条款5.4）\n\n- **发票争议**：如果葛兰素史克认为供应商提交的发票有缺陷或相关货物或服务未履行合同义务，葛兰素史克有权暂时终止就该争议金额部分的付款，并在收到发票后的14日内通知供应商。（条款5.5）",
+      "faithfulness": 2,
+      "faithfulness_reason": "AI生成的回答包含了大量未在参考证据中出现的条款内容，如价格和付款条款、发票寄送地址、发票争议等，这些信息在提供的合同条款中并不存在，属于编造内容。",
+      "completeness": 3,
+      "completeness_reason": "回答中提到了GSK付账日和发票要求，但遗漏了付款将在60天后的第一个GSK付账日安排这一关键细节。",
+      "judge_status": "ok"
+    },
+    {
+      "case_id": "arlo_purchase_price",
+      "lang": "en",
+      "tags": [
+        "en",
+        "long"
+      ],
+      "perspective": "party_b",
+      "e2e_query": "What are the specific contractual provisions regarding Purchase Price and Final Purchase Price?",
+      "evidence_snippets": [
+        "hereunder shall be (i) an amount in cash equal to the Final Purchase Price",
+        "the assumption of the Transferred Liabilities"
+      ],
+      "retrieved_chunk_ids": [
+        "chunk_0046",
+        "chunk_0103",
+        "chunk_0100",
+        "chunk_0105",
+        "chunk_0401",
+        "chunk_0106",
+        "chunk_0117",
+        "chunk_0102"
+      ],
+      "retrieval_ms": 2784.2,
+      "strict_hit5": 1.0,
+      "generated_answer": "The specific contractual provisions regarding Purchase Price and Final Purchase Price are as follows:\n\n1. **Purchase Price**: The purchase price for the transactions is an amount in cash equal to the Final Purchase Price and the assumption of the Transferred Liabilities (Clause 3.1).\n\n2. **Final Purchase Price**: The Final Purchase Price is defined as $50,000,000 plus the (positive or negative) Inventory Cost and the (positive or negative) Net Working Capital, as set forth in the Final Closing Statement (chunk_0046).\n\n3. **Post-Closing Adjustment**: \n   - If the Final Purchase Price exceeds the Estimated Purchase Price, the Purchaser shall pay the Seller the Excess Amount.\n   - If the Final Purchase Price is less than the Estimated Purchase Price, the Seller shall pay the Purchaser the Deficiency Amount (chunk_0103).\n\n4. **Calculation and Delivery**: \n   - The Purchaser is responsible for preparing a good faith calculation of the Final Purchase Price and delivering the Closing Statement to the Seller within ninety (90) days following the Closing Date (chunk_0105).\n   - If the Purchaser fails to deliver the Closing Statement within this period, the Estimated Closing Statement provided by the Seller will be deemed the Final Closing Statement (chunk_0106).\n\n5. **Payment Timing**: Payments for any Excess or Deficiency Amounts are to be made within three (3) Business Days of the final determination of the Final Closing Statement (chunk_0117).\n\nThese clauses outline the determination, adjustment, and payment processes related to the Purchase Price and Final Purchase Price.",
+      "faithfulness": 2,
+      "faithfulness_reason": "The AI-generated response includes several details not supported by the provided contractual evidence, such as specific amounts and adjustment processes, which are not present in the given clauses.",
+      "completeness": 2,
+      "completeness_reason": "The response does not accurately reflect the key points from the provided evidence, as it introduces additional information not found in the reference clauses and misses the core details of the clauses provided.",
+      "judge_status": "ok"
+    }
+  ]
+}

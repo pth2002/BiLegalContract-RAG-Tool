@@ -1,0 +1,2146 @@
+{
+  "meta": {
+    "cases_file": "D:\\AI agent rag 合同项目\\contract\\backend\\data\\retrieval_benchmark_cases_long_credit_agreement.json",
+    "case_count": 6,
+    "top_ks": [
+      1,
+      3,
+      5
+    ],
+    "final_top_k": 8,
+    "vector_backend": "local",
+    "method_base_chunk": {
+      "chunk_size": 480,
+      "overlap": 120
+    }
+  },
+  "chunk_strategy": [
+    {
+      "chunk_size": 240,
+      "overlap": 60,
+      "index": {
+        "backend": "local",
+        "documents": [
+          {
+            "document_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+            "filename": "Exh 10.1 - Credit Agreement.pdf",
+            "chunk_count": 2348,
+            "index_ms": 477788.2
+          }
+        ],
+        "avg_chunk_count": 2348.0,
+        "total_index_ms": 477788.2,
+        "avg_index_ms": 477788.2
+      },
+      "eval": {
+        "method": "hybrid",
+        "rerank_enabled": true,
+        "rerank_pool_mult": 4,
+        "per_case": [
+          {
+            "case_id": "commitment_fee_rate_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0184",
+              "chunk_0185"
+            ],
+            "retrieved_ids": [
+              "chunk_0347",
+              "chunk_0921",
+              "chunk_1207",
+              "chunk_2044",
+              "chunk_0228",
+              "chunk_2250",
+              "chunk_0194",
+              "chunk_0904"
+            ],
+            "latency_ms": 8916.81,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "offered_prepayment_liquidity_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0942"
+            ],
+            "retrieved_ids": [
+              "chunk_0347",
+              "chunk_1207",
+              "chunk_2044",
+              "chunk_0228",
+              "chunk_1716",
+              "chunk_2250",
+              "chunk_2273",
+              "chunk_0484"
+            ],
+            "latency_ms": 7422.02,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "no_default_rep_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0014",
+              "chunk_0944",
+              "chunk_1375",
+              "chunk_1611",
+              "chunk_1718",
+              "chunk_1727",
+              "chunk_1729",
+              "chunk_1741",
+              "chunk_1744",
+              "chunk_1775",
+              "chunk_1777",
+              "chunk_1790"
+            ],
+            "retrieved_ids": [
+              "chunk_0347",
+              "chunk_1207",
+              "chunk_2044",
+              "chunk_1898",
+              "chunk_1729",
+              "chunk_0228",
+              "chunk_1877",
+              "chunk_0312"
+            ],
+            "latency_ms": 5062.95,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.083333,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "governing_law_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_2298"
+            ],
+            "retrieved_ids": [
+              "chunk_0347",
+              "chunk_1640",
+              "chunk_2044",
+              "chunk_0312",
+              "chunk_2030",
+              "chunk_2250",
+              "chunk_2298",
+              "chunk_0566"
+            ],
+            "latency_ms": 7167.88,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "submission_to_jurisdiction_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_2300"
+            ],
+            "retrieved_ids": [
+              "chunk_0347",
+              "chunk_1640",
+              "chunk_2141",
+              "chunk_2044",
+              "chunk_2058",
+              "chunk_2030",
+              "chunk_2250",
+              "chunk_2298"
+            ],
+            "latency_ms": 7908.96,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "jury_waiver_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_2341"
+            ],
+            "retrieved_ids": [
+              "chunk_0347",
+              "chunk_2141",
+              "chunk_2044",
+              "chunk_1207",
+              "chunk_1481",
+              "chunk_2030",
+              "chunk_2250",
+              "chunk_2298"
+            ],
+            "latency_ms": 7262.96,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          }
+        ],
+        "macro": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.013889,
+          "hit@1": 0.0,
+          "hit@3": 0.0,
+          "hit@5": 0.166667,
+          "avg_latency_ms": 7290.26
+        }
+      }
+    },
+    {
+      "chunk_size": 320,
+      "overlap": 80,
+      "index": {
+        "backend": "local",
+        "documents": [
+          {
+            "document_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+            "filename": "Exh 10.1 - Credit Agreement.pdf",
+            "chunk_count": 1761,
+            "index_ms": 569941.42
+          }
+        ],
+        "avg_chunk_count": 1761.0,
+        "total_index_ms": 569941.42,
+        "avg_index_ms": 569941.42
+      },
+      "eval": {
+        "method": "hybrid",
+        "rerank_enabled": true,
+        "rerank_pool_mult": 4,
+        "per_case": [
+          {
+            "case_id": "commitment_fee_rate_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0138"
+            ],
+            "retrieved_ids": [
+              "chunk_0691",
+              "chunk_0701",
+              "chunk_1533",
+              "chunk_0171",
+              "chunk_0298",
+              "chunk_0160",
+              "chunk_1521",
+              "chunk_1688"
+            ],
+            "latency_ms": 5501.51,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "offered_prepayment_liquidity_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0706"
+            ],
+            "retrieved_ids": [
+              "chunk_1343",
+              "chunk_1533",
+              "chunk_0171",
+              "chunk_1705",
+              "chunk_0298",
+              "chunk_0688",
+              "chunk_1521",
+              "chunk_1287"
+            ],
+            "latency_ms": 6245.19,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "no_default_rep_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0010",
+              "chunk_0708",
+              "chunk_1031",
+              "chunk_1208",
+              "chunk_1288",
+              "chunk_1295",
+              "chunk_1296",
+              "chunk_1306",
+              "chunk_1308",
+              "chunk_1331",
+              "chunk_1333",
+              "chunk_1342"
+            ],
+            "retrieved_ids": [
+              "chunk_1408",
+              "chunk_0800",
+              "chunk_1230",
+              "chunk_0701",
+              "chunk_1533",
+              "chunk_0863",
+              "chunk_0171",
+              "chunk_1526"
+            ],
+            "latency_ms": 4250.11,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "governing_law_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_1723"
+            ],
+            "retrieved_ids": [
+              "chunk_1230",
+              "chunk_0701",
+              "chunk_0234",
+              "chunk_0691",
+              "chunk_1533",
+              "chunk_0863",
+              "chunk_0171",
+              "chunk_1723"
+            ],
+            "latency_ms": 5421.2,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "submission_to_jurisdiction_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_1725"
+            ],
+            "retrieved_ids": [
+              "chunk_1543",
+              "chunk_1230",
+              "chunk_1605",
+              "chunk_0701",
+              "chunk_0691",
+              "chunk_1533",
+              "chunk_0161",
+              "chunk_0171"
+            ],
+            "latency_ms": 5624.25,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "jury_waiver_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_1756"
+            ],
+            "retrieved_ids": [
+              "chunk_1543",
+              "chunk_1605",
+              "chunk_0701",
+              "chunk_1533",
+              "chunk_0863",
+              "chunk_0171",
+              "chunk_1225",
+              "chunk_1521"
+            ],
+            "latency_ms": 5776.51,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          }
+        ],
+        "macro": {
+          "recall@1": 0.0,
+          "recall@3": 0.0,
+          "recall@5": 0.0,
+          "hit@1": 0.0,
+          "hit@3": 0.0,
+          "hit@5": 0.0,
+          "avg_latency_ms": 5469.79
+        }
+      }
+    },
+    {
+      "chunk_size": 480,
+      "overlap": 120,
+      "index": {
+        "backend": "local",
+        "documents": [
+          {
+            "document_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+            "filename": "Exh 10.1 - Credit Agreement.pdf",
+            "chunk_count": 1174,
+            "index_ms": 481367.52
+          }
+        ],
+        "avg_chunk_count": 1174.0,
+        "total_index_ms": 481367.52,
+        "avg_index_ms": 481367.52
+      },
+      "eval": {
+        "method": "hybrid",
+        "rerank_enabled": true,
+        "rerank_pool_mult": 4,
+        "per_case": [
+          {
+            "case_id": "commitment_fee_rate_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0092"
+            ],
+            "retrieved_ids": [
+              "chunk_0820",
+              "chunk_0114",
+              "chunk_1022",
+              "chunk_0762",
+              "chunk_0420",
+              "chunk_0817",
+              "chunk_1125",
+              "chunk_0636"
+            ],
+            "latency_ms": 4929.36,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "offered_prepayment_liquidity_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0471"
+            ],
+            "retrieved_ids": [
+              "chunk_0857",
+              "chunk_0242",
+              "chunk_1022",
+              "chunk_0762",
+              "chunk_0895",
+              "chunk_0858",
+              "chunk_1136",
+              "chunk_1125"
+            ],
+            "latency_ms": 4728.93,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "no_default_rep_party_b",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_b",
+            "relevant_chunk_ids": [
+              "chunk_0006",
+              "chunk_0007",
+              "chunk_0471",
+              "chunk_0472",
+              "chunk_0687",
+              "chunk_0805",
+              "chunk_0858",
+              "chunk_0859",
+              "chunk_0863",
+              "chunk_0864",
+              "chunk_0870",
+              "chunk_0871",
+              "chunk_0872",
+              "chunk_0887",
+              "chunk_0888",
+              "chunk_0894",
+              "chunk_0895"
+            ],
+            "retrieved_ids": [
+              "chunk_0820",
+              "chunk_0114",
+              "chunk_0797",
+              "chunk_0857",
+              "chunk_0938",
+              "chunk_0872",
+              "chunk_0596",
+              "chunk_1022"
+            ],
+            "latency_ms": 3838.59,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "governing_law_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_1149"
+            ],
+            "retrieved_ids": [
+              "chunk_1149",
+              "chunk_0156",
+              "chunk_1147",
+              "chunk_1022",
+              "chunk_1148",
+              "chunk_0997",
+              "chunk_1014",
+              "chunk_0283"
+            ],
+            "latency_ms": 4539.73,
+            "per_k": {
+              "1": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "3": {
+                "recall": 1.0,
+                "hit": 1.0
+              },
+              "5": {
+                "recall": 1.0,
+                "hit": 1.0
+              }
+            }
+          },
+          {
+            "case_id": "submission_to_jurisdiction_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_1150"
+            ],
+            "retrieved_ids": [
+              "chunk_0820",
+              "chunk_1149",
+              "chunk_1147",
+              "chunk_1022",
+              "chunk_1148",
+              "chunk_0997",
+              "chunk_0703",
+              "chunk_0817"
+            ],
+            "latency_ms": 4786.9,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          },
+          {
+            "case_id": "jury_waiver_party_a",
+            "document": "Exh 10.1 - Credit Agreement.pdf",
+            "perspective": "party_a",
+            "relevant_chunk_ids": [
+              "chunk_1170"
+            ],
+            "retrieved_ids": [
+              "chunk_1070",
+              "chunk_0030",
+              "chunk_1153",
+              "chunk_0012",
+              "chunk_1147",
+              "chunk_1022",
+              "chunk_1093",
+              "chunk_1137"
+            ],
+            "latency_ms": 4422.33,
+            "per_k": {
+              "1": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "3": {
+                "recall": 0.0,
+                "hit": 0.0
+              },
+              "5": {
+                "recall": 0.0,
+                "hit": 0.0
+              }
+            }
+          }
+        ],
+        "macro": {
+          "recall@1": 0.166667,
+          "recall@3": 0.166667,
+          "recall@5": 0.166667,
+          "hit@1": 0.166667,
+          "hit@3": 0.166667,
+          "hit@5": 0.166667,
+          "avg_latency_ms": 4540.98
+        }
+      }
+    }
+  ],
+  "retrieval_methods": [
+    {
+      "method": "dense",
+      "rerank_enabled": false,
+      "rerank_pool_mult": 4,
+      "per_case": [
+        {
+          "case_id": "commitment_fee_rate_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0092"
+          ],
+          "retrieved_ids": [
+            "chunk_0040",
+            "chunk_0114",
+            "chunk_0820",
+            "chunk_0817",
+            "chunk_0494",
+            "chunk_1125",
+            "chunk_0092",
+            "chunk_1022"
+          ],
+          "latency_ms": 2122.57,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "offered_prepayment_liquidity_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0471"
+          ],
+          "retrieved_ids": [
+            "chunk_0995",
+            "chunk_0470",
+            "chunk_1125",
+            "chunk_0493",
+            "chunk_0821",
+            "chunk_1022",
+            "chunk_0489",
+            "chunk_0858"
+          ],
+          "latency_ms": 2090.91,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "no_default_rep_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0006",
+            "chunk_0007",
+            "chunk_0471",
+            "chunk_0472",
+            "chunk_0687",
+            "chunk_0805",
+            "chunk_0858",
+            "chunk_0859",
+            "chunk_0863",
+            "chunk_0864",
+            "chunk_0870",
+            "chunk_0871",
+            "chunk_0872",
+            "chunk_0887",
+            "chunk_0888",
+            "chunk_0894",
+            "chunk_0895"
+          ],
+          "retrieved_ids": [
+            "chunk_1125",
+            "chunk_1016",
+            "chunk_1022",
+            "chunk_0981",
+            "chunk_0995",
+            "chunk_0116",
+            "chunk_0636",
+            "chunk_0596"
+          ],
+          "latency_ms": 1362.71,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "governing_law_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1149"
+          ],
+          "retrieved_ids": [
+            "chunk_1042",
+            "chunk_1022",
+            "chunk_1015",
+            "chunk_1014",
+            "chunk_1149",
+            "chunk_1125",
+            "chunk_0726",
+            "chunk_1162"
+          ],
+          "latency_ms": 2153.15,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "submission_to_jurisdiction_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1150"
+          ],
+          "retrieved_ids": [
+            "chunk_1022",
+            "chunk_1147",
+            "chunk_1150",
+            "chunk_1125",
+            "chunk_1164",
+            "chunk_1149",
+            "chunk_1042",
+            "chunk_0820"
+          ],
+          "latency_ms": 2199.96,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "jury_waiver_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1170"
+          ],
+          "retrieved_ids": [
+            "chunk_1170",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1164",
+            "chunk_1015",
+            "chunk_0817",
+            "chunk_1159",
+            "chunk_1125"
+          ],
+          "latency_ms": 2083.12,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.166667,
+        "recall@3": 0.333333,
+        "recall@5": 0.5,
+        "hit@1": 0.166667,
+        "hit@3": 0.333333,
+        "hit@5": 0.5,
+        "avg_latency_ms": 2002.07
+      }
+    },
+    {
+      "method": "lexical",
+      "rerank_enabled": false,
+      "rerank_pool_mult": 4,
+      "per_case": [
+        {
+          "case_id": "commitment_fee_rate_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0092"
+          ],
+          "retrieved_ids": [
+            "chunk_0092",
+            "chunk_0452",
+            "chunk_0050",
+            "chunk_0389",
+            "chunk_0633",
+            "chunk_0091",
+            "chunk_0053",
+            "chunk_0451"
+          ],
+          "latency_ms": 828.91,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "offered_prepayment_liquidity_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0471"
+          ],
+          "retrieved_ids": [
+            "chunk_0470",
+            "chunk_1136",
+            "chunk_0490",
+            "chunk_0858",
+            "chunk_0493",
+            "chunk_0471",
+            "chunk_0489",
+            "chunk_0884"
+          ],
+          "latency_ms": 751.24,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "no_default_rep_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0006",
+            "chunk_0007",
+            "chunk_0471",
+            "chunk_0472",
+            "chunk_0687",
+            "chunk_0805",
+            "chunk_0858",
+            "chunk_0859",
+            "chunk_0863",
+            "chunk_0864",
+            "chunk_0870",
+            "chunk_0871",
+            "chunk_0872",
+            "chunk_0887",
+            "chunk_0888",
+            "chunk_0894",
+            "chunk_0895"
+          ],
+          "retrieved_ids": [
+            "chunk_0857",
+            "chunk_0858",
+            "chunk_0887",
+            "chunk_0872",
+            "chunk_0240",
+            "chunk_0888",
+            "chunk_0687",
+            "chunk_0855"
+          ],
+          "latency_ms": 534.95,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.117647,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 0.176471,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "governing_law_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1149"
+          ],
+          "retrieved_ids": [
+            "chunk_0132",
+            "chunk_1150",
+            "chunk_0283",
+            "chunk_0232",
+            "chunk_0217",
+            "chunk_1149",
+            "chunk_0591",
+            "chunk_0011"
+          ],
+          "latency_ms": 769.05,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "submission_to_jurisdiction_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1150"
+          ],
+          "retrieved_ids": [
+            "chunk_1149",
+            "chunk_1150",
+            "chunk_1092",
+            "chunk_0232",
+            "chunk_0703",
+            "chunk_0066",
+            "chunk_0245",
+            "chunk_0082"
+          ],
+          "latency_ms": 785.87,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "jury_waiver_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1170"
+          ],
+          "retrieved_ids": [
+            "chunk_1170",
+            "chunk_0011",
+            "chunk_1070",
+            "chunk_1093",
+            "chunk_0012",
+            "chunk_0030",
+            "chunk_1153",
+            "chunk_0653"
+          ],
+          "latency_ms": 769.49,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.333333,
+        "recall@3": 0.519608,
+        "recall@5": 0.529412,
+        "hit@1": 0.333333,
+        "hit@3": 0.666667,
+        "hit@5": 0.666667,
+        "avg_latency_ms": 739.92
+      }
+    },
+    {
+      "method": "hybrid",
+      "rerank_enabled": true,
+      "rerank_pool_mult": 4,
+      "per_case": [
+        {
+          "case_id": "commitment_fee_rate_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0092"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_0114",
+            "chunk_1022",
+            "chunk_0762",
+            "chunk_0420",
+            "chunk_0817",
+            "chunk_1125",
+            "chunk_0636"
+          ],
+          "latency_ms": 4585.32,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "offered_prepayment_liquidity_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0471"
+          ],
+          "retrieved_ids": [
+            "chunk_0857",
+            "chunk_0242",
+            "chunk_1022",
+            "chunk_0762",
+            "chunk_0895",
+            "chunk_0858",
+            "chunk_1136",
+            "chunk_1125"
+          ],
+          "latency_ms": 4565.29,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "no_default_rep_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0006",
+            "chunk_0007",
+            "chunk_0471",
+            "chunk_0472",
+            "chunk_0687",
+            "chunk_0805",
+            "chunk_0858",
+            "chunk_0859",
+            "chunk_0863",
+            "chunk_0864",
+            "chunk_0870",
+            "chunk_0871",
+            "chunk_0872",
+            "chunk_0887",
+            "chunk_0888",
+            "chunk_0894",
+            "chunk_0895"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_0114",
+            "chunk_0797",
+            "chunk_0857",
+            "chunk_0938",
+            "chunk_0872",
+            "chunk_0596",
+            "chunk_1022"
+          ],
+          "latency_ms": 3851.04,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "governing_law_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1149"
+          ],
+          "retrieved_ids": [
+            "chunk_1149",
+            "chunk_0156",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1148",
+            "chunk_0997",
+            "chunk_1014",
+            "chunk_0283"
+          ],
+          "latency_ms": 4942.4,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "submission_to_jurisdiction_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1150"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_1149",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1148",
+            "chunk_0997",
+            "chunk_0703",
+            "chunk_0817"
+          ],
+          "latency_ms": 4955.86,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "jury_waiver_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1170"
+          ],
+          "retrieved_ids": [
+            "chunk_1070",
+            "chunk_0030",
+            "chunk_1153",
+            "chunk_0012",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1093",
+            "chunk_1137"
+          ],
+          "latency_ms": 4503.07,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.166667,
+        "recall@3": 0.166667,
+        "recall@5": 0.166667,
+        "hit@1": 0.166667,
+        "hit@3": 0.166667,
+        "hit@5": 0.166667,
+        "avg_latency_ms": 4567.16
+      }
+    }
+  ],
+  "rerank_pool": [
+    {
+      "method": "hybrid",
+      "rerank_enabled": true,
+      "rerank_pool_mult": 1,
+      "per_case": [
+        {
+          "case_id": "commitment_fee_rate_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0092"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_0114",
+            "chunk_0817",
+            "chunk_1125",
+            "chunk_0092",
+            "chunk_0091",
+            "chunk_0040",
+            "chunk_0494"
+          ],
+          "latency_ms": 3505.28,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "offered_prepayment_liquidity_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0471"
+          ],
+          "retrieved_ids": [
+            "chunk_0858",
+            "chunk_1136",
+            "chunk_0995",
+            "chunk_0470",
+            "chunk_0489",
+            "chunk_0476",
+            "chunk_0493",
+            "chunk_0884"
+          ],
+          "latency_ms": 3310.08,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "no_default_rep_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0006",
+            "chunk_0007",
+            "chunk_0471",
+            "chunk_0472",
+            "chunk_0687",
+            "chunk_0805",
+            "chunk_0858",
+            "chunk_0859",
+            "chunk_0863",
+            "chunk_0864",
+            "chunk_0870",
+            "chunk_0871",
+            "chunk_0872",
+            "chunk_0887",
+            "chunk_0888",
+            "chunk_0894",
+            "chunk_0895"
+          ],
+          "retrieved_ids": [
+            "chunk_0857",
+            "chunk_1022",
+            "chunk_0981",
+            "chunk_0858",
+            "chunk_1016",
+            "chunk_1125",
+            "chunk_0116",
+            "chunk_0995"
+          ],
+          "latency_ms": 2530.34,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.058824,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "governing_law_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1149"
+          ],
+          "retrieved_ids": [
+            "chunk_1149",
+            "chunk_1022",
+            "chunk_1148",
+            "chunk_0283",
+            "chunk_0591",
+            "chunk_1015",
+            "chunk_1042",
+            "chunk_1150"
+          ],
+          "latency_ms": 3429.8,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "submission_to_jurisdiction_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1150"
+          ],
+          "retrieved_ids": [
+            "chunk_1149",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1125",
+            "chunk_1164",
+            "chunk_1092",
+            "chunk_0654",
+            "chunk_1150"
+          ],
+          "latency_ms": 3409.23,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "jury_waiver_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1170"
+          ],
+          "retrieved_ids": [
+            "chunk_1070",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_0817",
+            "chunk_1164",
+            "chunk_1015",
+            "chunk_1170",
+            "chunk_0011"
+          ],
+          "latency_ms": 3184.16,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.166667,
+        "recall@3": 0.166667,
+        "recall@5": 0.343137,
+        "hit@1": 0.166667,
+        "hit@3": 0.166667,
+        "hit@5": 0.5,
+        "avg_latency_ms": 3228.15
+      }
+    },
+    {
+      "method": "hybrid",
+      "rerank_enabled": true,
+      "rerank_pool_mult": 2,
+      "per_case": [
+        {
+          "case_id": "commitment_fee_rate_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0092"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_0114",
+            "chunk_1022",
+            "chunk_0817",
+            "chunk_1125",
+            "chunk_0636",
+            "chunk_1164",
+            "chunk_0452"
+          ],
+          "latency_ms": 3946.52,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "offered_prepayment_liquidity_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0471"
+          ],
+          "retrieved_ids": [
+            "chunk_0242",
+            "chunk_1022",
+            "chunk_0858",
+            "chunk_1136",
+            "chunk_1125",
+            "chunk_0636",
+            "chunk_0821",
+            "chunk_0490"
+          ],
+          "latency_ms": 3826.79,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "no_default_rep_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0006",
+            "chunk_0007",
+            "chunk_0471",
+            "chunk_0472",
+            "chunk_0687",
+            "chunk_0805",
+            "chunk_0858",
+            "chunk_0859",
+            "chunk_0863",
+            "chunk_0864",
+            "chunk_0870",
+            "chunk_0871",
+            "chunk_0872",
+            "chunk_0887",
+            "chunk_0888",
+            "chunk_0894",
+            "chunk_0895"
+          ],
+          "retrieved_ids": [
+            "chunk_0857",
+            "chunk_0872",
+            "chunk_0596",
+            "chunk_1022",
+            "chunk_0981",
+            "chunk_0858",
+            "chunk_1016",
+            "chunk_1125"
+          ],
+          "latency_ms": 2840.58,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.058824,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 0.058824,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "governing_law_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1149"
+          ],
+          "retrieved_ids": [
+            "chunk_1149",
+            "chunk_1022",
+            "chunk_1148",
+            "chunk_1014",
+            "chunk_0283",
+            "chunk_1125",
+            "chunk_0591",
+            "chunk_1015"
+          ],
+          "latency_ms": 4059.46,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "submission_to_jurisdiction_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1150"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_1149",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_0703",
+            "chunk_1125",
+            "chunk_1164",
+            "chunk_1042"
+          ],
+          "latency_ms": 4760.54,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "jury_waiver_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1170"
+          ],
+          "retrieved_ids": [
+            "chunk_1070",
+            "chunk_0030",
+            "chunk_1153",
+            "chunk_0012",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1093",
+            "chunk_1159"
+          ],
+          "latency_ms": 3782.09,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.166667,
+        "recall@3": 0.176471,
+        "recall@5": 0.176471,
+        "hit@1": 0.166667,
+        "hit@3": 0.333333,
+        "hit@5": 0.333333,
+        "avg_latency_ms": 3869.33
+      }
+    },
+    {
+      "method": "hybrid",
+      "rerank_enabled": true,
+      "rerank_pool_mult": 4,
+      "per_case": [
+        {
+          "case_id": "commitment_fee_rate_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0092"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_0114",
+            "chunk_1022",
+            "chunk_0762",
+            "chunk_0420",
+            "chunk_0817",
+            "chunk_1125",
+            "chunk_0636"
+          ],
+          "latency_ms": 6247.45,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "offered_prepayment_liquidity_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0471"
+          ],
+          "retrieved_ids": [
+            "chunk_0857",
+            "chunk_0242",
+            "chunk_1022",
+            "chunk_0762",
+            "chunk_0895",
+            "chunk_0858",
+            "chunk_1136",
+            "chunk_1125"
+          ],
+          "latency_ms": 7041.16,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "no_default_rep_party_b",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_b",
+          "relevant_chunk_ids": [
+            "chunk_0006",
+            "chunk_0007",
+            "chunk_0471",
+            "chunk_0472",
+            "chunk_0687",
+            "chunk_0805",
+            "chunk_0858",
+            "chunk_0859",
+            "chunk_0863",
+            "chunk_0864",
+            "chunk_0870",
+            "chunk_0871",
+            "chunk_0872",
+            "chunk_0887",
+            "chunk_0888",
+            "chunk_0894",
+            "chunk_0895"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_0114",
+            "chunk_0797",
+            "chunk_0857",
+            "chunk_0938",
+            "chunk_0872",
+            "chunk_0596",
+            "chunk_1022"
+          ],
+          "latency_ms": 6282.27,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "governing_law_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1149"
+          ],
+          "retrieved_ids": [
+            "chunk_1149",
+            "chunk_0156",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1148",
+            "chunk_0997",
+            "chunk_1014",
+            "chunk_0283"
+          ],
+          "latency_ms": 6012.03,
+          "per_k": {
+            "1": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "3": {
+              "recall": 1.0,
+              "hit": 1.0
+            },
+            "5": {
+              "recall": 1.0,
+              "hit": 1.0
+            }
+          }
+        },
+        {
+          "case_id": "submission_to_jurisdiction_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1150"
+          ],
+          "retrieved_ids": [
+            "chunk_0820",
+            "chunk_1149",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1148",
+            "chunk_0997",
+            "chunk_0703",
+            "chunk_0817"
+          ],
+          "latency_ms": 5957.3,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        },
+        {
+          "case_id": "jury_waiver_party_a",
+          "document": "Exh 10.1 - Credit Agreement.pdf",
+          "perspective": "party_a",
+          "relevant_chunk_ids": [
+            "chunk_1170"
+          ],
+          "retrieved_ids": [
+            "chunk_1070",
+            "chunk_0030",
+            "chunk_1153",
+            "chunk_0012",
+            "chunk_1147",
+            "chunk_1022",
+            "chunk_1093",
+            "chunk_1137"
+          ],
+          "latency_ms": 5035.14,
+          "per_k": {
+            "1": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "3": {
+              "recall": 0.0,
+              "hit": 0.0
+            },
+            "5": {
+              "recall": 0.0,
+              "hit": 0.0
+            }
+          }
+        }
+      ],
+      "macro": {
+        "recall@1": 0.166667,
+        "recall@3": 0.166667,
+        "recall@5": 0.166667,
+        "hit@1": 0.166667,
+        "hit@3": 0.166667,
+        "hit@5": 0.166667,
+        "avg_latency_ms": 6095.89
+      }
+    }
+  ],
+  "summary": {
+    "recommended_chunk": {
+      "chunk_size": 480,
+      "overlap": 120
+    },
+    "recommended_method": "lexical",
+    "recommended_rerank_pool_mult": 1
+  }
+}

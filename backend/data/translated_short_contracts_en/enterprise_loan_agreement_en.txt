@@ -1,0 +1,32 @@
+Enterprise Loan Agreement
+
+Party A (Lender): Investment Co., Ltd.
+Party B (Borrower): Startup Technology Co.
+
+1. Loan Amount and Purpose
+1. Party A shall provide Party B with a loan of RMB 1,000,000.
+2. The purpose of the loan is working capital for business operations. The purpose may not be changed without Party A's prior written consent.
+
+2. Loan Interest and Fees
+1. The annual interest rate of the loan is 24%, and compound interest shall be charged monthly.
+2. Party B shall pay the interest for the current month on or before the 20th day of each month.
+3. If Party B delays the payment of interest, penalty interest shall be charged on the overdue portion at a daily rate of 0.1%.
+
+3. Loan Term and Repayment
+1. The loan term shall be 6 months, calculated from the date of disbursement.
+2. Principal and interest shall be repaid in a lump sum upon maturity.
+3. If Party B makes an early repayment, it shall pay liquidated damages equal to 3% of the outstanding principal.
+
+4. Security Provisions
+1. Party B's actual controller and his or her spouse shall provide a joint and several liability guarantee.
+2. Party B shall mortgage all of its assets to Party A, and the mortgage registration procedures shall be handled by Party B.
+3. The scope of the security shall include principal, interest, penalty interest, liquidated damages, and all expenses incurred by Party A in realizing its creditor's rights.
+
+5. Acceleration
+If any of the following circumstances occurs, Party A shall have the right to declare the loan immediately due and payable and require Party B to immediately repay all principal and interest:
+1. Party B fails to pay any installment of interest on time;
+2. Party B's business condition deteriorates or it becomes involved in major litigation;
+3. A change occurs in Party B's actual controller.
+
+6. Liability for Breach
+If Party B delays repayment, in addition to paying penalty interest, it shall also bear all expenses paid by Party A to realize its creditor's rights, including attorney's fees, litigation fees, preservation fees, travel expenses, and other related costs.

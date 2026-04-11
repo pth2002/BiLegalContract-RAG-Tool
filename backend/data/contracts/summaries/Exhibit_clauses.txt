@@ -1,0 +1,192 @@
+文件: Exhibit.pdf
+总章节数: 50  命中关键条款: 14
+========================================================================
+
+=== ARTICLE III PURCHASE PRICE AND ADJUSTMENTS    17 ===
+3.1
+Purchase Price    17
+3.2
+Determination of Estimated Purchase Price    17
+3.3
+Post-Closing Adjustment of Estimated Purchase Price    18
+3.4
+Allocation of Estimated Purchase Price    20
+3.5
+Withholding    21
+---
+
+=== ARTICLE IV REPRESENTATIONS AND WARRANTIES OF SELLER    21 ===
+4.1
+Corporate Existence    21
+4.2
+Corporate Authority    21
+4.3
+No Conflicts; Governmental Approvals and Consents    22
+4.4
+Financial Information.    22
+4.5
+Absence of Changes    23
+4.6
+Sufficiency of Assets    23
+4.7
+Title to Transferred Assets; Properties.    23
+4.8
+Transferred Business Contracts.    23
+4.9
+Litigation    24
+4.10
+Compliance with Laws    24
+4.11
+Anti-Corruption; International Trade    24
+4.12
+Intellectual Property    25
+4.13
+Privacy and Data Security.    26
+4.14
+Product Liability    27
+4.15
+Tax Matters    27
+4.16
+Benefit Plans    27
+4.17
+Labor Matters    28
+4.18
+Transferred Real Property    29
+4.19
+Environmental Matters    29
+4.20
+Affiliate Agreements    30
+4.21
+Distributors    30
+4.22
+Brokers and Other Advisors.    30
+4.23
+No Other Representations or Warranties    30
+-i-
+---
+
+=== ARTICLE VII CONDITIONS TO CLOSING    57 ===
+7.1
+Conditions Precedent to Obligations of Purchaser and Seller and the Other Selling Entities    57
+7.2
+Conditions Precedent to Obligation of Purchaser    57
+7.3
+Conditions Precedent to Obligation of Seller and the Other Selling Entities    58
+---
+
+=== ARTICLE VIII CLOSING    58 ===
+8.1
+Closing Date    58
+8.2
+Purchaser Obligations    59
+-ii-
+
+8.3
+Seller Obligations    59
+---
+
+=== ARTICLE IX INDEMNIFICATION    60 ===
+9.1
+Survival    60
+9.2
+Indemnification by Seller    60
+9.3
+Indemnification by Purchaser    61
+9.4
+Limitations on Indemnification    61
+9.5
+Indemnification Procedures    63
+9.6
+Mitigation    66
+9.7
+Treatment of Indemnification Payments    66
+---
+
+=== ARTICLE X TERMINATION    66 ===
+10.1
+Termination Events    66
+10.2
+Effect of Termination    67
+---
+
+=== PURCHASE PRICE AND ADJUSTMENTS ===
+3.1    Purchase Price.
+Subject to the adjustments provided for in this Agreement, the purchase price in respect of the purchase and sale transactions
+hereunder shall be (i) an amount in cash equal to the Final Purchase Price and (ii) the assumption of the Transferred Liabilities, which comprises the
+respective purchase price to be paid for the Transferred Assets.
+3.2    Determination of Estimated Purchase Price.
+(a)    No earlier than five (5) and no later than three (3) Business Days before the Closing Date, Seller shall deliver to Purchaser (i) a
+statement that is certified by Seller’s Chief Financial Officer setting forth (A) Seller’s good faith calculation and estimate of the aggregate amount of
+the Estimated Purchase Price and each of the Estimated Purchase Price Elements (B) Seller’s
+…（正文已截断）
+---
+
+=== REPRESENTATIONS AND WARRANTIES OF SELLER ===
+Seller represents and warrants to Purchaser, subject to the disclosures and exceptions set forth in the disclosure schedules delivered
+by Seller to Purchaser concurrently herewith (the “Disclosure Schedules”), as follows:
+4.1    Corporate Existence.
+Each Selling Entity is duly organized, validly existing and, where such concept is recognized in the applicable jurisdiction, in good
+standing under the laws of its jurisdiction of organization. Each Selling Entity has the requisite corporate, limited liability company, partnership or
+similar power and authority to own, lease and operate its properties, rights and assets related to the Business (including the Transferred Assets) and to
+conduct the Business as the same is now being conducted by it. Each Selling Entity is duly qualified to do bus
+…（正文已截断）
+---
+
+=== Article  IV of this Agreement (as modified by the Disclosure Schedules) and the express representations and warranties contained in the other ===
+Transaction Documents.
+---
+
+=== Section 6.6(a)(ii) is able to return to active employment within 180 days following the Closing Date (or such longer period as required by ===
+applicable Law), Purchaser shall offer (or cause its applicable Affiliate to offer) employment as provided in this Section 6.6(a)(ii) and, if such
+Business Employee accepts such offer and commences employment pursuant to the terms thereof, such Business Employee shall become a
+Transferred Employee from and after the date employment commences as provided in such offer. Any Business Employee who is on long-
+term disability as of the Closing Date who is not able to return to active employment within 180 days following the Closing Date (or such
+longer period as required by applicable Law) shall be retained by Seller or its applicable Subsidiary. The applicable date on which a
+Transferred Employee commences employment with Purchaser or its applicable Affiliate is referred to herein as the “Appl
+…（正文已截断）
+---
+
+=== CONDITIONS TO CLOSING ===
+7.1    Conditions Precedent to Obligations of Purchaser and Seller and the Other Selling Entities.
+The respective obligations of the Parties to consummate and cause the consummation of the Purchase shall be subject to the
+satisfaction (or waiver, in whole or in part, by the Party for whose benefit such condition exists in its sole discretion, to the extent permitted by
+applicable Law) on or prior to the Closing Date of each of the following conditions:
+(a)    No Injunction, etc. No Governmental Authority of competent jurisdiction shall have enacted, issued, promulgated, enforced or
+entered any Law or Order that is in effect on the Closing Date that has or would have the effect of prohibiting or enjoining the Purchase or making the
+transactions contemplated by this Agreement illegal; and
+(b
+…（正文已截断）
+---
+
+=== INDEMNIFICATION ===
+9.1    Survival.
+(a)    Subject to Section ‎9.1(b), each representation and warranty contained in ‎Article IV and ‎Article V shall survive the Closing and
+shall terminate on the eighteen (18) month anniversary of the Closing Date, except that (i) the Seller Fundamental Representations and Purchaser
+Fundamental Representations shall survive the Closing, and shall terminate on the six (6) year anniversary of the Closing Date and (ii) the
+representations and warranties contained in Section 4.15 shall survive the Closing Date and shall remain in full force until 60 days past the expiration
+of the applicable statute of limitations for the Taxes in question (taking into account any extensions or waivers thereof). The covenants and
+agreements contained in this Agreement (i) that are required to b
+…（正文已截断）
+---
+
+=== Article IX in respect of a breach of representation or warranty, covenant or agreement shall terminate on the applicable survival termination date (as ===
+set forth in Section ‎9.1(a)), unless an Indemnified Party shall have made a claim for indemnification pursuant to Section ‎9.2 or Section 9.3, subject to
+the terms and conditions of this ‎Article IX (or Section 6.10(d), as applicable), prior to such survival termination date, as applicable, including by
+delivering an Indemnification Claim Notice to the Indemnifying Party. Notwithstanding anything herein to the contrary, if an Indemnified Party has
+made a claim for indemnification pursuant to Section 9.2 or Section ‎9.3 and delivered an Indemnification Claim Notice to the Indemnifying Party
+prior to such survival termination date, then such claim (and only such claim), if then unresolved, shall not be extinguished by the passage of the
+deadlines set forth in Section ‎9.1(a).
+(c)    In dete
+…（正文已截断）
+---
+
+=== TERMINATION ===
+10.1    Termination Events.
+Without prejudice to other remedies which may be available to the Parties by Law or this Agreement, this Agreement may be
+terminated and the transactions contemplated herein may be abandoned (provided, that with respect to Section 10.1(g), any such termination and
+abandonment shall be automatic and shall occur immediately upon the occurrence of the event specified therein and shall not require any action or
+notice on the part of any Party):
+(a)    by mutual written consent of the Parties;
+(b)        after March 4, 2020 (the “Outside Date”), by any Party by notice to the other Party if the Closing shall not have been
+consummated on or prior to 5:00 pm Pacific Time on the Outside Date; provided, however, that the right to terminate this Agreement under this
+---
