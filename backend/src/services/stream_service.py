@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 class StreamServiceError(Exception):
     """Exception raised during streaming."""
-
+ 
     pass
 
 
