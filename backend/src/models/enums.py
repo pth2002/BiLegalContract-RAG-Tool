@@ -2,7 +2,7 @@
 
 from enum import Enum
 
-
+ 
 class FileType(str, Enum):
     """Supported document file types."""
 
