@@ -1,6 +1,6 @@
 """Offline retrieval benchmark for chunking / retrieval strategy / rerank experiments.
 
-This tool does not change the main application logic. It reuses the existing
+This tool does not change the main application logic. It reuses the existing 
 indexing, retrieval, reranking, and config modules with temporary env-based
 overrides, then writes a Markdown + JSON report for interview-ready evidence.
 
