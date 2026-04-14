@@ -4,7 +4,7 @@ import logging
 import re
 from typing import AsyncGenerator, Union
 
-import ollama
+import ollama 
 
 from ..models import PerspectiveType
 from ..config import (
