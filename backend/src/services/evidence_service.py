@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 
-from ..models import EvidenceRef, RetrievedChunk, RiskCard
+from ..models import EvidenceRef, RetrievedChunk, RiskCard 
 
 
 def _normalize(text: str) -> str:
