@@ -12,7 +12,7 @@ from uuid import UUID
 
 from ..config import (
     get_coarse_recall_max_per_query,
-    get_coarse_recall_mult,
+    get_coarse_recall_mult, 
     get_hybrid_rrf_k,
     get_retrieval_filter_min_chars,
     get_rerank_pool_mult,
