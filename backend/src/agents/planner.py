@@ -1,6 +1,6 @@
 """Initial plan construction: template-first, optional LLM-generated dynamic plan."""
 
-from __future__ import annotations
+from __future__ import annotations 
 
 import json
 import logging
