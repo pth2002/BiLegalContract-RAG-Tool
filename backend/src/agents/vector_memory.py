@@ -1,7 +1,7 @@
 """长期向量记忆：pgvector + PostgreSQL 实现。内存 fallback 保留用于无数据库时。"""
 
 from __future__ import annotations
-
+ 
 import json
 import logging
 import math
