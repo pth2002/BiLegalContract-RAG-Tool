@@ -1,5 +1,5 @@
 """Evaluators: quality gates for retrieval and generation (mature agent)."""
-
+ 
 from __future__ import annotations
 
 from dataclasses import dataclass
