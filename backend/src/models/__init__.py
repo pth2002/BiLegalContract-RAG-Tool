@@ -1,5 +1,5 @@
 """Models package for the contract review tool."""
-
+ 
 from .enums import FileType, Severity, RiskCategory, PerspectiveType, ExportFormat
 from .document import (
     Document,
