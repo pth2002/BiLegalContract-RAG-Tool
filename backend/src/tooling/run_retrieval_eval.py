@@ -5,7 +5,7 @@ Usage (from backend/):
   python -m src.tooling.run_retrieval_eval --dump-chunks path/to/contract.docx
   python -m src.tooling.run_retrieval_eval --dump-inline-file data/retrieval_eval_gold.example.json --case-id inline_minimal
 
-Requires: DATABASE_URL 可达、embedding 依赖已安装（与主应用相同）。
+Requires: DATABASE_URL 可达、embedding 依赖已安装（与主应用相同）。 
 """
 
 from __future__ import annotations
