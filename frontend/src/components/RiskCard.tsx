@@ -7,7 +7,7 @@ interface RiskCardProps {
   risk: RiskCardType;
   index: number;
   compact?: boolean;
-  onClick?: (risk: RiskCardType) => void;
+  onClick?: (risk: RiskCardType) => void; 
 }
 
 const severityConfig: Record<SeverityTone, { color: string; bgColor: string; icon: string }> = {
