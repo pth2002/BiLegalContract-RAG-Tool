@@ -8,7 +8,7 @@ from uuid import UUID
 
 from pydantic import BaseModel, ConfigDict, Field
 
-
+ 
 class ChunkRecord(BaseModel):
     """A stored chunk (for indexing)."""
 
