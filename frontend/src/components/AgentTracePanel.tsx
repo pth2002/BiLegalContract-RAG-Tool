@@ -1,6 +1,6 @@
 import type { AgentTraceStep } from '../types';
 
-interface AgentTracePanelProps {
+interface AgentTracePanelProps { 
   steps: AgentTraceStep[];
 }
 
