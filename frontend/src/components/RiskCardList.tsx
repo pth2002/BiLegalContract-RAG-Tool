@@ -7,7 +7,7 @@ import RiskCard from './RiskCard';
 interface RiskCardListProps {
   risks: RiskCardType[];
   comparisonMode?: boolean;
-  partyARisks?: RiskCardType[];
+  partyARisks?: RiskCardType[]; 
   partyBRisks?: RiskCardType[];
   currentPerspective?: PerspectiveType;
   onPerspectiveChange?: (p: PerspectiveType) => void;
