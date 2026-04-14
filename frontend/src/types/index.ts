@@ -6,7 +6,7 @@ export type AnalysisLanguage = 'auto' | 'zh' | 'en';
 
 export interface Document {
   id: string;
-  filename: string;
+  filename: string; 
   file_type: FileType;
   file_size: number;
   page_count: number;
