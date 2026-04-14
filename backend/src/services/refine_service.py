@@ -5,7 +5,7 @@ import re
 from typing import Optional
 
 from ..models import RiskCard
-from .ollama_service import (
+from .ollama_service import ( 
     get_ollama_client,
     OLLAMA_HOST,
     DEFAULT_MODEL,
