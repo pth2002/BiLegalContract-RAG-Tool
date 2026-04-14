@@ -1,5 +1,5 @@
 """Execution trace for observability and debugging."""
-
+ 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
