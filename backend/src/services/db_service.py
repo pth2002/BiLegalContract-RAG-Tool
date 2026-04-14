@@ -7,7 +7,7 @@ from __future__ import annotations
 
 import logging
 from typing import Any, Optional, TYPE_CHECKING
-
+ 
 from ..config import get_database_url
 
 logger = logging.getLogger(__name__)
