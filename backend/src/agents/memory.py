@@ -1,5 +1,5 @@
 """Working memory for a single agent run (episodic persistence optional later)."""
-
+ 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
