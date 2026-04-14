@@ -5,7 +5,7 @@ from __future__ import annotations
 import logging
 from uuid import UUID
 
-from ..models import ChunkRecord, Document
+from ..models import ChunkRecord, Document 
 from .chunking_service import chunk_document
 from .embedding_service import embed_texts
 from .vector_store_service import init_vector_store, upsert_chunks
