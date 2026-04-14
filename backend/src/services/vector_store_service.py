@@ -9,7 +9,7 @@ import os
 import re
 from pathlib import Path
 from typing import Any, Iterable, Optional
-from uuid import UUID
+from uuid import UUID 
 
 from ..config import get_vector_dim
 from ..models import ChunkRecord, RetrievedChunk
