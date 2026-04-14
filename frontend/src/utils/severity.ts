@@ -16,7 +16,7 @@ export function normalizeSeverity(value: string | null | undefined): SeverityTon
 
 export function severityLabel(value: string | null | undefined): string {
   const normalized = normalizeSeverity(value);
-  if (normalized === 'high') return '高';
+  if (normalized === 'high') return '高'; 
   if (normalized === 'low') return '低';
   return '中';
 }
