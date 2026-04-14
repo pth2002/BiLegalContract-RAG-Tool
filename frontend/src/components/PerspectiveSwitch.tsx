@@ -5,7 +5,7 @@ interface PerspectiveSwitchProps {
   perspectives: PerspectiveInfo[];
   currentPerspective: PerspectiveType;
   onChange: (perspective: PerspectiveType) => void;
-}
+} 
 
 export default function PerspectiveSwitch({
   perspectives,
