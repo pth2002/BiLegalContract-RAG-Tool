@@ -7,7 +7,7 @@ from uuid import UUID
 
 from .enums import Severity
 
-
+ 
 class EvidenceRef(BaseModel):
     """Grounding evidence for one risk."""
 
