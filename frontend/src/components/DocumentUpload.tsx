@@ -3,7 +3,7 @@ import { useDropzone } from 'react-dropzone';
 import { motion } from 'framer-motion';
 
 interface DocumentUploadProps {
-  onUpload: (file: File, sessionId: string) => void;
+  onUpload: (file: File, sessionId: string) => void; 
   disabled?: boolean;
 }
 
