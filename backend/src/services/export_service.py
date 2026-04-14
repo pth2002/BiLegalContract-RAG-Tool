@@ -4,7 +4,7 @@ from datetime import datetime
 from io import BytesIO
 from typing import Optional
 
-from docx import Document as DocxDocument
+from docx import Document as DocxDocument 
 from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
