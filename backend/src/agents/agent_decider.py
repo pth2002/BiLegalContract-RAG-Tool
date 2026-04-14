@@ -1,4 +1,4 @@
-"""Backward-compatibility shim — functionality moved to fallback_decider.py."""
+"""Backward-compatibility shim — functionality moved to fallback_decider.py.""" 
 
 from __future__ import annotations
 
