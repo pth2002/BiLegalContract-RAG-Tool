@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ```bash
 cp .env.example .env
-# 编辑 .env，填入数据库密码和 API Key
+# 填入数据库密码和 API Key
 ```
 
 关键配置项见 `.env.example`，核心参数：
