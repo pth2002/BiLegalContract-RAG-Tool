@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 
-@dataclass(frozen=True)
+@dataclass(frozen=True) 
 class RetrievedContext:
     """A single retrieved context chunk for RAG prompting."""
 
