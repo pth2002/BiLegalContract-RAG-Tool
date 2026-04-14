@@ -1,4 +1,4 @@
-"""Typed models for plan, decisions, execution, and critique."""
+"""Typed models for plan, decisions, execution, and critique.""" 
 
 from __future__ import annotations
 
