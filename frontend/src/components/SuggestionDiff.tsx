@@ -4,7 +4,7 @@ import { useState } from 'react';
 interface SuggestionDiffProps {
   original: string;
   refined: string;
-  onCopyRefined: () => void;
+  onCopyRefined: () => void; 
 }
 
 export default function SuggestionDiff({ original, refined, onCopyRefined }: SuggestionDiffProps) {
