@@ -8,7 +8,7 @@ from enum import Enum
 
 
 class PerspectiveType(str, Enum):
-    """Perspective types for contract analysis."""
+    """Perspective types for contract analysis.""" 
     PARTY_A = "party_a"  # 甲方视角 - typically the client/service recipient
     PARTY_B = "party_b"  # 乙方视角 - typically the vendor/service provider
 
