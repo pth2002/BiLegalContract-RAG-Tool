@@ -4,7 +4,7 @@ import { api } from '../services/api';
 import type { RiskCard, PerspectiveType } from '../types';
 
 interface ExportButtonProps {
-  documentId: string;
+  documentId: string; 
   risks: RiskCard[];
   perspective: PerspectiveType;
 }
