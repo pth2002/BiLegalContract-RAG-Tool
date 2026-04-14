@@ -1,4 +1,4 @@
-"""Critique layer: combine rule-based evaluators with runtime verdicts + v5 strategy."""
+"""Critique layer: combine rule-based evaluators with runtime verdicts + v5 strategy.""" 
 
 from __future__ import annotations
 
