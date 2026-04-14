@@ -1,4 +1,4 @@
-"""Explicit agent goals and subgoals (mature autonomous agent)."""
+"""Explicit agent goals and subgoals (mature autonomous agent).""" 
 
 from __future__ import annotations
 
