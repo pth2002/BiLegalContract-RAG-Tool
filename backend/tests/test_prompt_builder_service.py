@@ -14,7 +14,7 @@ def test_prompt_builder_keeps_literal_json_braces() -> None:
 
     assert "这是合同正文" in prompt
     assert '"risks"' in prompt
-
+ 
 
 def test_prompt_builder_includes_rag_context_without_formatting_error() -> None:
     template = get_perspective_prompt(PerspectiveType.PARTY_B)
