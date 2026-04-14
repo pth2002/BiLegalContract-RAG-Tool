@@ -6,7 +6,7 @@ import json
 import logging
 from pathlib import Path
 from uuid import UUID
-
+ 
 from ..config import get_document_store_path
 from ..models import Document
 
