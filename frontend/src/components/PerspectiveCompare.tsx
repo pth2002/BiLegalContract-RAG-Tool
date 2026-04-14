@@ -1,7 +1,7 @@
 import { AnimatePresence } from 'framer-motion';
 import type { PerspectiveType, RiskCard as RiskCardType } from '../types';
 import { normalizeSeverity } from '../utils/severity';
-import RiskCard from './RiskCard';
+import RiskCard from './RiskCard'; 
 
 interface PerspectiveCompareProps {
   partyARisks: RiskCardType[];
