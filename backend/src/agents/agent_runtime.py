@@ -1,4 +1,4 @@
-"""Main agent runtime: decision → execute → critique → replan → finish/degrade."""
+"""Main agent runtime: decision → execute → critique → replan → finish/degrade.""" 
 
 from __future__ import annotations
 
