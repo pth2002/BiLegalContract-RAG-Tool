@@ -5,7 +5,7 @@ document blocks are available we now chunk section-like merged content rather
 than treating the whole document as one flat string.
 """
 
-from __future__ import annotations
+from __future__ import annotations 
 
 import re
 from dataclasses import dataclass
