@@ -1,5 +1,5 @@
 """End-to-end (generation + LLM-as-Judge) benchmark for the contract RAG system.
-
+ 
 For each benchmark case:
   1. Build a natural-language e2e_query from focus_areas (Method C).
   2. Retrieve top-8 chunks via the existing retrieval pipeline.
