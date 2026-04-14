@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { api } from './services/api';
 import type {
   AnalysisLanguage,
-  AgentTraceStep,
+  AgentTraceStep, 
   Document,
   DocumentMetadata,
   DoneEvent,
