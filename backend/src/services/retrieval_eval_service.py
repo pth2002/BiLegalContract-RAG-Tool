@@ -5,7 +5,7 @@ from __future__ import annotations
 import logging
 from typing import Any
 from ..models import Document, PerspectiveType, RetrievedChunk
-from .chunking_service import chunk_document
+from .chunking_service import chunk_document 
 
 logger = logging.getLogger(__name__)
 
