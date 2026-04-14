@@ -7,7 +7,7 @@ import os
 from functools import lru_cache
 from types import SimpleNamespace
 
-import numpy as np
+import numpy as np 
 
 from ..config import get_rerank_batch_size, get_rerank_model
 from ..models import RetrievedChunk
