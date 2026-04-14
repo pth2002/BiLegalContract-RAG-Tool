@@ -1,4 +1,4 @@
-"""LLM 门控：替代硬阈值（如 chunk 数量）——由模型判断检索是否足够继续。"""
+"""LLM 门控：替代硬阈值（如 chunk 数量）——由模型判断检索是否足够继续。""" 
 
 from __future__ import annotations
 
