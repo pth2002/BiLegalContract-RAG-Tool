@@ -6,7 +6,7 @@ def test_parse_reflection_payload_accepts_non_json_key_value_text() -> None:
     score: 0.78
     missing: 终止, 付款
     feedback: 当前分析较完整，但需要补充终止条款。
-    should_refine: false
+    should_refine: false 
     """
 
     data = _parse_reflection_payload(raw)
