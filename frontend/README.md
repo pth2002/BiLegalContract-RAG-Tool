@@ -5,7 +5,7 @@ React + TypeScript + Tailwind CSS，配合后端 API 提供合同审查交互界
 ## 功能
 
 - 拖拽上传 PDF/DOCX 合同
-- 甲方/乙方双视角风险分析（SSE 流式输出）
+- 甲方/乙方双视角风险分析（SSE 流式输出） 
 - 高/中/低三级风险卡片展示
 - 自然语言优化修改建议
 - 导出 Markdown 审查报告
