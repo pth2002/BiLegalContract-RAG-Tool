@@ -4,7 +4,7 @@ import { api } from '../services/api';
 import type { RiskCard } from '../types';
 
 interface RefinementInputProps {
-  risk: RiskCard;
+  risk: RiskCard; 
   onRefined: (original: string, refined: string) => void;
   onCancel: () => void;
 }
