@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass 
 
 from ..config import (
     get_agent_max_generation_retries,
