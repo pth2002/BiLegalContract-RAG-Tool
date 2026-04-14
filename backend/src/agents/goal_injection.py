@@ -1,4 +1,4 @@
-"""动态目标注入 + v5 子目标拆解：让 Agent 自己定义做什么、先做什么。"""
+"""动态目标注入 + v5 子目标拆解：让 Agent 自己定义做什么、先做什么。""" 
 
 from __future__ import annotations
 
