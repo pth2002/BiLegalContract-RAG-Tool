@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import type { RiskCard } from '../types';
 import { normalizeSeverity, severityLabel, type SeverityTone } from '../utils/severity';
 import RefinementInput from './RefinementInput';
-import SuggestionDiff from './SuggestionDiff';
+import SuggestionDiff from './SuggestionDiff'; 
 
 interface RiskDetailModalProps {
   risk: RiskCard | null;
